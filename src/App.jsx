@@ -17,15 +17,18 @@ import {
   Settings,
   Brain,
   Award,
-  BookOpen
+  BookOpen,
+  GitBranch,
+  Aperture,
+  MessageSquare
 } from 'lucide-react';
-import profileAvatar from './assets/profile.png';
+import profileAvatar from './assets/profile.jpg';
 
 // --- DATOS DEL PORTAFOLIO ---
 
 const profileData = {
   name: "José Mora",
-  title: "Desarrollador de Software Full Stack",
+  title: "Ingeniero de Software Full Stack",
   avatarUrl: profileAvatar,
   location: "Venezuela",
   email: "dev.moramjose@gmail.com",
@@ -34,7 +37,7 @@ const profileData = {
     github: "https://github.com/moramjose",
     linkedin: "https://linkedin.com/in/devmoramjose",
   },
-  summary: "Desarrollador de software con 5 años de experiencia comprobada en el diseño, desarrollo e implementación de soluciones robustas para aplicaciones web y móviles. Dominio sólido de Java, JavaScript, TypeScript, PHP y C#, con experiencia en Front-end (Angular, Ionic) y Back-end (Laravel, ASP.NET). Hábil en la gestión de bases de datos MySQL, creación de APIs RESTful, gestión de contenido con WordPress y automatización con la Power Platform (Power Apps, Power Automate, SharePoint y Azure). Enfocado en aplicar habilidades técnicas para contribuir al éxito de proyectos innovadores, optimizando el rendimiento y la escalabilidad.",
+  summary: "Ingeniero de Software Full Stack con 5 años de experiencia orquestando ecosistemas digitales. Mi especialidad es diseñar y construir soluciones completas, desde aplicaciones móviles y web (Ionic, Angular, React) hasta el backend (Laravel, .NET) y la infraestructura en la nube (AWS, Azure). Tengo un historial probado arquitectando la interoperabilidad entre plataformas dispares (ej. Laravel, WordPress, Moodle) y automatizando procesos de negocio (BPA) de alto impacto. Combino el desarrollo de código a medida (PHP, C#) con el poder de Power Platform (Power Automate, Power Apps, Power BI) para eliminar la fricción operativa y entregar valor medible al negocio.",
   cvLink: "/cv.pdf" 
 };
 
@@ -42,102 +45,131 @@ const skillsData = [
   { 
     category: "Lenguajes de Programación", 
     icon: Code,
-    items: ["Java", "JavaScript", "TypeScript", "PHP", "C#", "C++"] 
+    items: ["TypeScript", "JavaScript", "PHP", "Java", "C#", "C++", "Visual Basic"] 
   },
   { 
     category: "Desarrollo Back-end", 
     icon: Settings,
-    items: ["Laravel", "ASP.NET", "PHP (Nativa)", "Node.js (Básico)"] 
+    items: ["Laravel", "ASP.NET", "PHP (nativa)", "C# (para backend)"] 
   },
   { 
     category: "Desarrollo Front-end", 
     icon: Layers,
-    items: ["Angular", "Ionic", "HTML5", "CSS3", "React (Básico)"] 
+    items: ["Angular", "Ionic", "React", "Wordpress", "HTML5", "CSS3", "JavaScript/TypeScript (web)"] 
   },
   { 
     category: "Bases de Datos", 
     icon: Database,
-    items: ["MySQL (Modelado, Diseño, Optimización)", "SQL Server"] 
+    items: ["MySQL", "SQL Server (Modelado, Diseño, Optimización de Consultas)"] 
   },
   { 
-    category: "Cloud, DevOps & CMS", 
+    category: "Servicios Cloud & Hosting", 
     icon: Cloud,
-    items: ["AWS (S3, EC2, RDS)", "WordPress (Plugins/Temas)", "Dreamhost", "Git", "GitHub", "Bitbucket"] 
+    items: ["AWS (S3, EC2, RDS)", "Google Cloud", "Firebase", "Dreamhost"] 
+  },
+  {
+    category: "Gestión de Contenido (CMS)",
+    icon: Aperture,
+    items: ["WordPress (creación de plugins y temas personalizados)"]
+  },
+  {
+    category: "Control de Versiones",
+    icon: GitBranch,
+    items: ["Github", "Gitlab", "Bitbucket", "Git"]
   },
   { 
-    category: "Herramientas y Plataformas", 
+    category: "Herramientas", 
     icon: Star,
-    items: ["Microsoft Power Platform", "Power Apps", "Power Automate", "Office", "Excel", "Word", "PowerPoint", "SharePoint", "Azure (Básico)", "VS Code", "Visual Studio", "PhpStorm", "Postman", "Insomnia"] 
+    items: ["VS Code", "Visual Studio", "PhpStorm", "Adobe XD", "Sketch XD", "Postman", "Insomnia", "Power Platform", "SMSS", "Teams", "Discord", "Slack", "Google chat"] 
+  },
+  {
+    category: "Soft Skills",
+    icon: Brain,
+    items: ["Resolución de Problemas", "Comunicación Efectiva", "Colaboración en Equipo", "Aprendizaje Continuo", "Orientación a Resultados", "Autodidacta"]
   }
 ];
 
 const experienceData = [
   {
-    company: "De One (Remoto)",
-    role: "Desarrollador Full Stack",
+    company: "Grupo Estrella",
+    role: "Desarrollador de automatizaciones",
+    period: "2025 - 2025",
+    description: "Responsable de digitalizar y optimizar los procesos de gestión de personal (capacitación, evaluación, asistencia) utilizando el stack de Microsoft. Diseñé la solución de captura de datos (MS Forms, Power Apps) y orquesté la lógica de negocio con Power Automate, distribuyendo datos a Listas de SharePoint y SQL Server. Esta automatización eliminó el procesamiento manual. Implementé la capa de BI conectando Power BI a SQL Server para reportes en tiempo real.",
+    tags: ["Power Platform", "Power Automate", "Power Apps", "Power BI", "SQL Server", "SharePoint"]
+  },
+  {
+    company: "Florida Global University",
+    role: "Desarrollador full stack",
+    period: "2024 - 2025",
+    description: "Arquitecto y automatizador del sistema de gestión académica (SIS) y aula virtual (LMS). Automaticé por completo el proceso de inscripción con un motor de reglas de negocio. Integré tres plataformas (Laravel, WordPress, Moodle) desarrollando un plugin middleware de WordPress a medida para sincronizar usuarios, cursos y matrículas entre tres bases de datos MySQL en tiempo real.",
+    tags: ["Laravel", "WordPress", "Moodle", "MySQL", "PHP", "Plugins a medida"]
+  },
+  {
+    company: "American Elite School",
+    role: "Desarrollador full stack",
+    period: "2024 - 2025",
+    description: "Responsable de replicar y escalar la arquitectura de software completa (Laravel/WordPress/Moodle) para el lanzamiento de la escuela. Adapté el core del negocio, reconfigurando el motor de automatización de inscripciones y la lógica de sincronización de bases de datos MySQL para operar de forma independiente. Personalicé la capa de presentación (WordPress) con nuevos plugins y temas hijos a medida.",
+    tags: ["Laravel", "WordPress", "Moodle", "MySQL", "PHP"]
+  },
+  {
+    company: "De One",
+    role: "Desarrollador full stack",
     period: "2019 - 2025",
-    description: "Lideré el desarrollo y mantenimiento de múltiples aplicaciones web y móviles, gestionando el ciclo de vida completo desde la concepción hasta el despliegue en AWS.",
-    tags: ["Angular", "Ionic", "Laravel", "MySQL", "AWS"]
+    description: "Como único Desarrollador Full Stack, mantuve la plataforma de delivery 'De One', asumiendo la propiedad total. Diseñé el ecosistema: API RESTful en Laravel, 4 apps móviles en Ionic (Cliente, Socio, Repartidor, Cocina) y paneles web en Angular. Implementé geolocalización en tiempo real. Desplegué y administré la infraestructura en AWS (EC2, S3) y gestioné la publicación de las 4 apps en las tiendas.",
+    tags: ["Laravel", "Ionic", "Angular", "MySQL", "AWS (EC2, S3)", "PHP", "REST API"]
   },
   {
-    company: "Grupo Estrella (Remoto)",
-    role: "Desarrollador Power Platform",
-    period: "2025",
-    description: "Desarrollo de soluciones de automatización de procesos y aplicaciones de bajo código para optimizar operaciones internas.",
-    tags: ["Power Platform", "Power Apps", "Power Automate", "SQL Server"]
-  },
-  {
-    company: "Florida Global University (Oficina)",
-    role: "Desarrollador Web",
-    period: "2024 - 2025",
-    description: "Mantenimiento del portal web principal, desarrollo de nuevas funcionalidades y optimización de la base de datos.",
-    tags: ["WordPress", "Laravel", "MySQL"]
-  },
-  {
-    company: "American Elite School (Oficina)",
-    role: "Desarrollador Web",
-    period: "2024 - 2025",
-    description: "Gestión de la plataforma educativa basada en WordPress, creando plugins personalizados y asegurando la integridad de los datos.",
-    tags: ["WordPress", "Laravel", "MySQL"]
-  },
-  {
-    company: "Progracademy (Remoto)",
-    role: "Desarrollador Web",
+    company: "Progracademy",
+    role: "Desarrollador full stack",
     period: "2022 - 2023",
-    description: "Participación en el desarrollo de una plataforma de e-learning, enfocándome en la API RESTful y la integración con el frontend de Angular.",
-    tags: ["Angular", "Laravel", "MySQL"]
+    description: "Pieza clave en la construcción de la plataforma e-learning (Angular/Laravel). Diseñé y mantuve el panel administrativo. Optimicé el backend (Laravel) y la BD MySQL, creando vistas optimizadas para reportes complejos. Lideré la integración con Microsoft 365 (Graph API) para conectar con Teams y Calendar, automatizando la programación de clases. Desarrollé un módulo de Web Scrapping (Goutte/Guzzle).",
+    tags: ["Laravel", "Angular", "MySQL", "Power BI", "Microsoft Graph API", "Web Scrapping"]
   },
   {
-    company: "PYKRS, Secco Service, Mandaditos CR (Remoto)",
-    role: "Desarrollador Móvil",
+    company: "PYKRS (Remoto)",
+    role: "Desarrollador remoto",
     period: "2021 - 2022",
-    description: "Desarrollo de aplicaciones móviles híbridas para diversos clientes, enfocadas en servicios y logística.",
-    tags: ["Ionic", "Angular"]
+    description: "Colaboré en la evolución de la app IoT de PYKRS. Mi rol se centró en la optimización del frontend: refactoricé la arquitectura de estilos (CSS/SCSS) de pantallas principales, implementando un diseño modular y mejorando la UX. Fui responsable de la gestión de dependencias, planificando y ejecutando la actualización de librerías críticas.",
+    tags: ["IoT", "CSS/SCSS", "UX/UI", "Mantenimiento"]
+  },
+  {
+    company: "Secco Service (Remoto)",
+    role: "Desarrollador remoto",
+    period: "2021 - 2022",
+    description: "Asumí el mantenimiento y evolución de una app móvil híbrida (Ionic). Refactoricé y optimicé módulos críticos (Login, Perfil, Inicio) mejorando la UX y la mantenibilidad. Ejecuté una actualización integral de librerías y dependencias del stack de Ionic para mitigar vulnerabilidades.",
+    tags: ["Ionic", "Móvil", "Refactorización", "UX/UI"]
+  },
+  {
+    company: "Mandaditos CR (Remoto)",
+    role: "Desarrollador remoto",
+    period: "2021 - 2022",
+    description: "Colaboré en el escalado de la plataforma. Implementé el módulo de seguimiento en tiempo real, diseñando la interfaz de mapas y los endpoints de la API RESTful para geolocalización. Integré hardware nativo (Cámara, GPS) con Capacitor para pruebas de entrega (PoD). Optimicé consultas SQL complejas.",
+    tags: ["Ionic", "Angular", "MySQL", "Capacitor", "GPS", "REST API"]
   }
 ];
 
 const projectsData = [
   {
     title: "Sistema educativo",
-    description: "Proyecto de desarrollo Full Stack de un sistema educativo en línea, incluyendo gestión de usuarios, cursos y evaluaciones. Para American elite School, Florida Global University, Universidad Politecnica Baden Powell.",
+    description: "Proyecto Full Stack de un sistema educativo en línea (FGU, AES). Arquitectura e integración de Laravel, WordPress y Moodle, y automatización completa del proceso de inscripción de estudiantes.",
     imageUrl: "https://portal.floridaglobal.university/wp-content/uploads/2025/07/cropped-cropped-LOGO-BLANCO_FLORIDA-GLOBAL-UNIVERSITY-1536x506-1.png",
-    tags: ["Wordpress", "Laravel", "MySQL", "AWS", "Dreamhost"],
+    tags: ["Wordpress", "Laravel", "MySQL", "Moodle", "PHP", "AWS", "Dreamhost"],
     liveUrl: "https://portal.floridaglobal.university/my-account/", 
     repoUrl: "#" 
   },
   {
     title: "Cursos en línea - Progracademy",
-    description: "Desarrollo de una plataforma como Full Stack de e-learning con funcionalidades completas para la gestión de cursos, usuarios y contenido multimedia.",
+    description: "Desarrollo de plataforma e-learning. Construcción del panel de admin, optimización de BD con vistas SQL e integración con Microsoft 365 Graph API para automatizar agendamiento en Teams.",
     imageUrl: "https://panel.progracademy.com/assets/media/logos/default.svg",
-    tags: ["Angular", "Laravel", "MySQL", "AWS"],
+    tags: ["Angular", "Laravel", "MySQL", "AWS", "Microsoft Graph API", "Power BI"],
     liveUrl: "https://panel.progracademy.com/dashboard", 
     repoUrl: "#" 
   },
   {
     title: "Automatización con Power Platform",
-    description: "Implementación de un flujo de trabajo automatizado para un cliente (Grupo Estrella) que optimizó el proceso de aprobación de documentos, ahorrando horas de trabajo manual.",
+    description: "Implementación de flujo de trabajo automatizado para Grupo Estrella. Solución E2E (Power Apps, Forms, Power Automate) para procesar datos en SQL Server y SharePoint, eliminando el procesamiento manual.",
     imageUrl: "https://www.northware.mx/wp-content/uploads/2022/09/northware-microsoft-power-platform.png",
-    tags: ["Microsoft Power Platform", "Power Automate", "Power Apps", "Power BI", "SQL Server", "Azure"],
+    tags: ["Microsoft Power Platform", "Power Automate", "Power Apps", "Power BI", "SQL Server", "SharePoint"],
     liveUrl: "#", 
     repoUrl: "#" 
   }
@@ -148,6 +180,11 @@ const educationData = [
     institution: "Universidad Bicentenaria de Aragua",
     degree: "Ingeniería de Sistemas - Mención Inteligencia Artificial",
     period: "Finalizando grado",
+  },
+  {
+    institution: "U.E.P Colegio \"Dr. Gustavo H. Machado\"",
+    degree: "Educación Secundaria",
+    period: "Graduado",
   },
   {
     institution: "Udemy",
@@ -239,7 +276,7 @@ const Header = () => {
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">Abrir menú principal</span>
               {isOpen ? <X className="block h-6 w-6" /> : <Menu className="block h-6 w-6" />}
             </button>
           </div>
@@ -456,7 +493,7 @@ const Education = () => (
 const Contact = () => (
   <section id="contact" className="py-20 bg-gray-800">
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <SectionTitle title="Hablemos" icon={Mail} />
+      <SectionTitle title="Hablemos" icon={MessageSquare} />
       <p className="text-xl text-gray-300 mb-8">
         Estoy disponible para nuevas oportunidades y colaboraciones.
       </p>
@@ -521,5 +558,3 @@ export default function App() {
     </div>
   );
 }
-
-
