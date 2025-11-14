@@ -38,7 +38,7 @@ const profileData = {
     linkedin: "https://linkedin.com/in/devmoramjose",
   },
   summary: "Ingeniero de Software Full Stack con 5 años de experiencia orquestando ecosistemas digitales. Mi especialidad es diseñar y construir soluciones completas, desde aplicaciones móviles y web (Ionic, Angular, React) hasta el backend (Laravel, .NET) y la infraestructura en la nube (AWS, Azure). Tengo un historial probado arquitectando la interoperabilidad entre plataformas dispares (ej. Laravel, WordPress, Moodle) y automatizando procesos de negocio (BPA) de alto impacto. Combino el desarrollo de código a medida (PHP, C#) con el poder de Power Platform (Power Automate, Power Apps, Power BI) para eliminar la fricción operativa y entregar valor medible al negocio.",
-  cvLink: "/cv.pdf" 
+  cvLink: "cv.pdf" 
 };
 
 const skillsData = [
