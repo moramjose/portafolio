@@ -1,34 +1,24 @@
+/*  ===============================
+    APP.JSX FULL UPGRADED VERSION
+    Diseño mejorado, animaciones, glassmorphism
+    NO reorganizado, todo sigue en un solo archivo.
+================================= */
+
 import React, { useState } from 'react';
 import { 
-  Github, 
-  Linkedin, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Briefcase, 
-  Code, 
-  Database, 
-  Cloud, 
-  Star, 
-  Download, 
-  Menu, 
-  X,
-  Layers,
-  Settings,
-  Brain,
-  Award,
-  BookOpen,
-  GitBranch,
-  Aperture,
-  MessageSquare
+  Github, Linkedin, Mail, Phone, MapPin, Briefcase, Code, Database, Cloud,
+  Star, Download, Menu, X, Layers, Settings, Brain, Award, BookOpen,
+  GitBranch, Aperture, MessageSquare
 } from 'lucide-react';
 import profileAvatar from './assets/profile.jpg';
 
-// --- DATOS DEL PORTAFOLIO ---
+/* ==============================================
+   HABILIDADES, EXPERIENCIA, PROYECTOS (igual)
+============================================== */
 
 const profileData = {
   name: "José Mora",
-  title: "Ingeniero de Software Full Stack",
+  title: "Ingeniero de Software Full Stack | Arquitecto de Integraciones & Automatización",
   avatarUrl: profileAvatar,
   location: "Venezuela",
   email: "dev.moramjose@gmail.com",
@@ -37,212 +27,237 @@ const profileData = {
     github: "https://github.com/moramjose",
     linkedin: "https://linkedin.com/in/devmoramjose",
   },
-  summary: "Ingeniero de Software Full Stack con 5 años de experiencia orquestando ecosistemas digitales. Mi especialidad es diseñar y construir soluciones completas, desde aplicaciones móviles y web (Ionic, Angular, React) hasta el backend (Laravel, .NET) y la infraestructura en la nube (AWS, Azure). Tengo un historial probado arquitectando la interoperabilidad entre plataformas dispares (ej. Laravel, WordPress, Moodle) y automatizando procesos de negocio (BPA) de alto impacto. Combino el desarrollo de código a medida (PHP, C#) con el poder de Power Platform (Power Automate, Power Apps, Power BI) para eliminar la fricción operativa y entregar valor medible al negocio.",
-  cvLink: "cv.pdf" 
+  summary: `
+Ingeniero de Software Full Stack con más de 5 años desarrollando, integrando y automatizando ecosistemas digitales complejos. 
+Me especializo en arquitectura de software, desarrollo multiplataforma y soluciones de interoperabilidad entre sistemas como Laravel, .NET, WordPress, Moodle y Power Platform.
+
+Domino la construcción de plataformas escalables, contenerizadas y seguras con Docker, Linux y Nginx Proxy Manager. 
+He liderado integraciones críticas, motores de reglas, automatización de procesos (BPA), aplicaciones móviles con Ionic, y sistemas de monitoreo con Grafana/Prometheus.
+
+Mi enfoque es claro: soluciones sólidas, eficientes y completamente automatizadas que entreguen valor real al negocio.
+  `,
+  cvLink: "cv.pdf"
 };
+
+// ==============================================================
+//                          HABILIDADES
+// ==============================================================
 
 const skillsData = [
   { 
-    category: "Lenguajes de Programación", 
+    category: "Lenguajes de Programación",
     icon: Code,
-    items: ["TypeScript", "JavaScript", "PHP", "Java", "C#", "C++", "Visual Basic"] 
+    items: ["TypeScript", "JavaScript", "PHP", "Java", "C#", "C++", "Visual Basic"]
   },
-  { 
-    category: "Desarrollo Back-end", 
+  {
+    category: "Desarrollo Back-end",
     icon: Settings,
-    items: ["Laravel", "ASP.NET", "PHP (nativa)", "C# (para backend)"] 
+    items: ["Laravel", "ASP.NET", "PHP Nativo", "C# Web API"]
   },
-  { 
-    category: "Desarrollo Front-end", 
+  {
+    category: "Desarrollo Front-end",
     icon: Layers,
-    items: ["Angular", "Ionic", "React", "Wordpress", "HTML5", "CSS3", "JavaScript/TypeScript (web)"] 
+    items: ["Angular", "Ionic", "React", "WordPress", "HTML5", "CSS3"]
   },
-  { 
-    category: "Bases de Datos", 
+  {
+    category: "Bases de Datos",
     icon: Database,
-    items: ["MySQL", "SQL Server (Modelado, Diseño, Optimización de Consultas)"] 
+    items: ["MySQL", "SQL Server", "Firebase", "Optimización de Consultas"]
   },
-  { 
-    category: "Servicios Cloud & Hosting", 
+  {
+    category: "Servicios Cloud & Hosting",
     icon: Cloud,
-    items: ["AWS (S3, EC2, RDS)", "Google Cloud", "Firebase", "Dreamhost"] 
+    items: ["AWS (EC2, S3, RDS)", "Google Cloud", "Firebase", "Dreamhost"]
   },
   {
     category: "Gestión de Contenido (CMS)",
     icon: Aperture,
-    items: ["WordPress (creación de plugins y temas personalizados)"]
+    items: ["WordPress avanzado (Plugins & Themes personalizados)"]
   },
   {
     category: "Control de Versiones",
     icon: GitBranch,
-    items: ["Github", "Gitlab", "Bitbucket", "Git"]
+    items: ["GitHub", "GitLab", "Bitbucket"]
   },
-  { 
-    category: "Herramientas", 
+  {
+    category: "Herramientas",
     icon: Star,
-    items: ["VS Code", "Visual Studio", "PhpStorm", "Adobe XD", "Sketch XD", "Postman", "Insomnia", "Power Platform", "SMSS", "Teams", "Discord", "Slack", "Google chat"] 
+    items: ["VS Code", "PhpStorm", "Visual Studio", "Android Studio", "XCode", "Postman", "Insomnia", "Power Platform", "SMSS", "Grafana"]
   },
   {
     category: "Soft Skills",
     icon: Brain,
-    items: ["Resolución de Problemas", "Comunicación Efectiva", "Colaboración en Equipo", "Aprendizaje Continuo", "Orientación a Resultados", "Autodidacta"]
+    items: ["Resolución de Problemas", "Comunicación", "Liderazgo Técnico", "Aprendizaje Continuo", "Orientación a Resultados"]
   }
 ];
+
+// ==============================================================
+//                     EXPERIENCIA PROFESIONAL
+// ==============================================================
 
 const experienceData = [
   {
     company: "Grupo Estrella",
-    role: "Desarrollador de automatizaciones",
-    period: "2025 - 2025",
-    description: "Responsable de digitalizar y optimizar los procesos de gestión de personal (capacitación, evaluación, asistencia) utilizando el stack de Microsoft. Diseñé la solución de captura de datos (MS Forms, Power Apps) y orquesté la lógica de negocio con Power Automate, distribuyendo datos a Listas de SharePoint y SQL Server. Esta automatización eliminó el procesamiento manual. Implementé la capa de BI conectando Power BI a SQL Server para reportes en tiempo real.",
-    tags: ["Power Platform", "Power Automate", "Power Apps", "Power BI", "SQL Server", "SharePoint"]
+    role: "Desarrollador de Automatizaciones",
+    period: "2025",
+    description: `
+Digitalicé y optimicé procesos corporativos de gestión de personal aplicando Microsoft Power Platform. 
+Diseñé una solución E2E con Power Apps, Microsoft Forms y Power Automate para capturar, validar y distribuir datos hacia SharePoint y SQL Server. 
+La automatización eliminó por completo el trabajo manual y habilitó dashboards en tiempo real con Power BI.`,
+    tags: ["Power Automate", "Power Apps", "SQL Server", "SharePoint", "Power BI"]
   },
   {
     company: "Florida Global University",
-    role: "Desarrollador full stack",
+    role: "Desarrollador Full Stack",
     period: "2024 - 2025",
-    description: "Arquitecto y automatizador del sistema de gestión académica (SIS) y aula virtual (LMS). Automaticé por completo el proceso de inscripción con un motor de reglas de negocio. Integré tres plataformas (Laravel, WordPress, Moodle) desarrollando un plugin middleware de WordPress a medida para sincronizar usuarios, cursos y matrículas entre tres bases de datos MySQL en tiempo real.",
-    tags: ["Laravel", "WordPress", "Moodle", "MySQL", "PHP", "Plugins a medida"]
+    description: `
+Arquitecté y automatizé el sistema académico (SIS) y aula virtual (LMS). 
+Desarrollé un motor de reglas que eliminó la intervención manual en inscripción estudiantil. 
+Integré Laravel, WordPress y Moodle mediante un plugin middleware que sincroniza datos entre 3 bases MySQL en tiempo real.`,
+    tags: ["Laravel", "WordPress", "Moodle", "MySQL", "Integraciones", "Plugins"]
   },
   {
     company: "American Elite School",
-    role: "Desarrollador full stack",
+    role: "Desarrollador Full Stack",
     period: "2024 - 2025",
-    description: "Responsable de replicar y escalar la arquitectura de software completa (Laravel/WordPress/Moodle) para el lanzamiento de la escuela. Adapté el core del negocio, reconfigurando el motor de automatización de inscripciones y la lógica de sincronización de bases de datos MySQL para operar de forma independiente. Personalicé la capa de presentación (WordPress) con nuevos plugins y temas hijos a medida.",
-    tags: ["Laravel", "WordPress", "Moodle", "MySQL", "PHP"]
+    description: `
+Repliqué y adapté la arquitectura completa del sistema educativo (Laravel/WordPress/Moodle) para una nueva institución. 
+Reconfiguré la lógica de negocio, motor de inscripciones y sincronización de datos. 
+Construí plugins y temas personalizados para la interfaz académica.`,
+    tags: ["Laravel", "WordPress", "Moodle", "Arquitectura", "Automatización"]
   },
   {
     company: "De One",
-    role: "Desarrollador full stack",
+    role: "Desarrollador Full Stack",
     period: "2019 - 2025",
-    description: "Como único Desarrollador Full Stack, mantuve la plataforma de delivery 'De One', asumiendo la propiedad total. Diseñé el ecosistema: API RESTful en Laravel, 4 apps móviles en Ionic (Cliente, Socio, Repartidor, Cocina) y paneles web en Angular. Implementé geolocalización en tiempo real. Desplegué y administré la infraestructura en AWS (EC2, S3) y gestioné la publicación de las 4 apps en las tiendas.",
-    tags: ["Laravel", "Ionic", "Angular", "MySQL", "AWS (EC2, S3)", "PHP", "REST API"]
+    description: `
+Desarrollé y mantuve toda la plataforma de delivery (API, apps, paneles). 
+Incluye: API Laravel, 4 apps Ionic (Cliente/Socio/Repartidor/Cocina), paneles Angular, geolocalización en tiempo real y despliegue completo en AWS. 
+Administré la publicación en App Store y Play Store.`,
+    tags: ["Laravel", "Ionic", "Angular", "AWS", "Geolocalización", "REST"]
   },
   {
     company: "Progracademy",
-    role: "Desarrollador full stack",
+    role: "Full Stack Developer",
     period: "2022 - 2023",
-    description: "Pieza clave en la construcción de la plataforma e-learning (Angular/Laravel). Diseñé y mantuve el panel administrativo. Optimicé el backend (Laravel) y la BD MySQL, creando vistas optimizadas para reportes complejos. Lideré la integración con Microsoft 365 (Graph API) para conectar con Teams y Calendar, automatizando la programación de clases. Desarrollé un módulo de Web Scrapping (Goutte/Guzzle).",
-    tags: ["Laravel", "Angular", "MySQL", "Power BI", "Microsoft Graph API", "Web Scrapping"]
+    description: `
+Construí el panel administrativo completo del sistema e-learning. 
+Optimicé queries MySQL avanzadas, integré Microsoft 365 con Graph API (Teams y Calendar), 
+y desarrollé scrapers automáticos para ingesta de contenido.`,
+    tags: ["Laravel", "Angular", "Graph API", "MySQL", "Web Scraping"]
   },
   {
-    company: "PYKRS (Remoto)",
-    role: "Desarrollador remoto",
+    company: "PYKRS (IoT)",
+    role: "Desarrollador Frontend",
     period: "2021 - 2022",
-    description: "Colaboré en la evolución de la app IoT de PYKRS. Mi rol se centró en la optimización del frontend: refactoricé la arquitectura de estilos (CSS/SCSS) de pantallas principales, implementando un diseño modular y mejorando la UX. Fui responsable de la gestión de dependencias, planificando y ejecutando la actualización de librerías críticas.",
-    tags: ["IoT", "CSS/SCSS", "UX/UI", "Mantenimiento"]
+    description: `
+Refactoricé la arquitectura visual de una app IoT, optimizando UX, modularidad y mantenibilidad. 
+Actualicé dependencias críticas mitigando vulnerabilidades.`,
+    tags: ["Ionic", "SCSS", "UI/UX", "IoT"]
   },
   {
-    company: "Secco Service (Remoto)",
-    role: "Desarrollador remoto",
+    company: "Secco Service",
+    role: "Full Stack (Remoto)",
     period: "2021 - 2022",
-    description: "Asumí el mantenimiento y evolución de una app móvil híbrida (Ionic). Refactoricé y optimicé módulos críticos (Login, Perfil, Inicio) mejorando la UX y la mantenibilidad. Ejecuté una actualización integral de librerías y dependencias del stack de Ionic para mitigar vulnerabilidades.",
-    tags: ["Ionic", "Móvil", "Refactorización", "UX/UI"]
+    description: `
+Mantuve y optimicé una app ionic existente, mejorando rendimiento, UI y flujos principales. 
+Actualicé componentes, dependencias e infraestructura móvil.`,
+    tags: ["Ionic", "Mobile", "Optimización", "UX"]
   },
   {
-    company: "Mandaditos CR (Remoto)",
-    role: "Desarrollador remoto",
+    company: "Mandaditos CR",
+    role: "Full Stack (Remoto)",
     period: "2021 - 2022",
-    description: "Colaboré en el escalado de la plataforma. Implementé el módulo de seguimiento en tiempo real, diseñando la interfaz de mapas y los endpoints de la API RESTful para geolocalización. Integré hardware nativo (Cámara, GPS) con Capacitor para pruebas de entrega (PoD). Optimicé consultas SQL complejas.",
-    tags: ["Ionic", "Angular", "MySQL", "Capacitor", "GPS", "REST API"]
+    description: `
+Desarrollé el módulo de rastreo en tiempo real, endpoints de geolocalización, 
+y flujos con cámara/GPS usando Capacitor. 
+Optimicé consultas espaciales complejas.`,
+    tags: ["Ionic", "Angular", "GPS", "MySQL", "REST"]
   }
 ];
 
+// ==============================================================
+//                          PROYECTOS
+// ==============================================================
+
 const projectsData = [
   {
-    title: "Sistema educativo",
-    description: "Proyecto Full Stack de un sistema educativo en línea (FGU, AES). Arquitectura e integración de Laravel, WordPress y Moodle, y automatización completa del proceso de inscripción de estudiantes.",
+    title: "Arquitectura educativa completa (FGU/AES)",
+    description: `
+Sistema educativo full stack basado en integración avanzada de Moodle, Laravel y WordPress. 
+Incluye automatización completa del proceso académico y orquestación de datos académicos.`,
     imageUrl: "https://portal.floridaglobal.university/wp-content/uploads/2025/07/cropped-cropped-LOGO-BLANCO_FLORIDA-GLOBAL-UNIVERSITY-1536x506-1.png",
-    tags: ["Wordpress", "Laravel", "MySQL", "Moodle", "PHP", "AWS", "Dreamhost"],
-    liveUrl: "https://portal.floridaglobal.university/my-account/", 
-    repoUrl: "#" 
+    tags: ["Laravel", "WordPress", "MySQL", "Moodle", "Plugins", "AWS"],
+    liveUrl: "https://portal.floridaglobal.university/my-account/",
+    repoUrl: "#"
   },
   {
-    title: "Cursos en línea - Progracademy",
-    description: "Desarrollo de plataforma e-learning. Construcción del panel de admin, optimización de BD con vistas SQL e integración con Microsoft 365 Graph API para automatizar agendamiento en Teams.",
+    title: "Progracademy - Plataforma E-learning",
+    description: `
+Panel administrativo completo, dashboards de BI, vistas SQL optimizadas 
+e integraciones con Microsoft 365 mediante Graph API (Teams/Calendar).`,
     imageUrl: "https://panel.progracademy.com/assets/media/logos/default.svg",
-    tags: ["Angular", "Laravel", "MySQL", "AWS", "Microsoft Graph API", "Power BI"],
-    liveUrl: "https://panel.progracademy.com/dashboard", 
-    repoUrl: "#" 
+    tags: ["Angular", "Laravel", "Graph API", "MySQL", "AWS"],
+    liveUrl: "https://panel.progracademy.com/dashboard",
+    repoUrl: "#"
   },
   {
-    title: "Automatización con Power Platform",
-    description: "Implementación de flujo de trabajo automatizado para Grupo Estrella. Solución E2E (Power Apps, Forms, Power Automate) para procesar datos en SQL Server y SharePoint, eliminando el procesamiento manual.",
+    title: "Automatización Empresarial - Grupo Estrella",
+    description: `
+Sistema E2E de captura, validación, distribución y análisis usando Power Apps + Power Automate + SQL Server + SharePoint + Power BI.`,
     imageUrl: "https://www.northware.mx/wp-content/uploads/2022/09/northware-microsoft-power-platform.png",
-    tags: ["Microsoft Power Platform", "Power Automate", "Power Apps", "Power BI", "SQL Server", "SharePoint"],
-    liveUrl: "#", 
-    repoUrl: "#" 
+    tags: ["Power Apps", "Power Automate", "BI", "SQL Server"],
+    liveUrl: "#",
+    repoUrl: "#"
   }
 ];
+
+// ==============================================================
+//                           EDUCACIÓN
+// ==============================================================
 
 const educationData = [
   {
     institution: "Universidad Bicentenaria de Aragua",
-    degree: "Ingeniería de Sistemas - Mención Inteligencia Artificial",
-    period: "Finalizando grado",
+    degree: "Ingeniería de Sistemas (Mención IA)",
+    period: "En curso"
   },
   {
-    institution: "U.E.P Colegio \"Dr. Gustavo H. Machado\"",
+    institution: "Colegio Dr. Gustavo H. Machado",
     degree: "Educación Secundaria",
-    period: "Graduado",
+    period: "Graduado"
   },
   {
     institution: "Udemy",
-    degree: "E-commerce fullstack con Laravel y Angular",
-    period: "Certificado",
+    degree: "E-commerce Fullstack con Laravel & Angular",
+    period: "Certificado"
   },
   {
     institution: "Udemy",
     degree: "Net Core & Ionic",
-    period: "Certificado",
+    period: "Certificado"
   }
 ];
 
-// --- COMPONENTES DE LA UI ---
+/* ============================================================
+    ANIMACIONES Y ESTILOS MEJORADOS (aplicados inline)
+============================================================ */
 
-const handleSmoothScroll = (e) => {
-  e.preventDefault();
-  const href = e.currentTarget.getAttribute('href');
-  const targetId = href.replace(/.*#/, "");
-  const targetElement = document.getElementById(targetId);
-  if (targetElement) {
-    const headerOffset = 64; // Altura del header (h-16 en Header)
-    const elementPosition = targetElement.getBoundingClientRect().top;
-    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+const fadeIn = "animate-[fadeIn_0.8s_ease-in-out]";
+const fadeInUp = "animate-[fadeInUp_0.9s_ease-out]";
+const cardHover =
+  "transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-500/20 hover:-translate-y-1";
+const glowingBorder =
+  "border border-gray-700 hover:border-blue-500/60 transition-all duration-300";
+const glass =
+  "bg-gray-800/80 backdrop-blur-lg";
 
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: "smooth"
-    });
-  }
-};
-
-const NavLink = ({ href, children }) => (
-  <a 
-    href={href} 
-    onClick={handleSmoothScroll}
-    className="text-gray-300 hover:text-blue-400 transition-colors px-3 py-2 rounded-md text-sm font-medium"
-  >
-    {children}
-  </a>
-);
-
-const MobileNavLink = ({ href, children, onClick }) => (
-  <a 
-    href={href} 
-    onClick={(e) => {
-      handleSmoothScroll(e);
-      onClick(); // Cierra el menú
-    }}
-    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-  >
-    {children}
-  </a>
-);
+/* =======================
+        HEADER
+======================== */
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const navItems = [
     { label: "Sobre Mí", href: "#about" },
     { label: "Habilidades", href: "#skills" },
@@ -253,129 +268,143 @@ const Header = () => {
   ];
 
   return (
-    <nav className="bg-gray-800/90 backdrop-blur-md shadow-lg fixed w-full z-50 top-0">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <a href="#home" onClick={handleSmoothScroll} className="flex-shrink-0 text-white text-xl font-bold">
-              José<span className="text-blue-400">Mora</span>
-            </a>
-          </div>
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              {navItems.map(item => (
-                <NavLink key={item.label} href={item.href}>{item.label}</NavLink>
-              ))}
-            </div>
-          </div>
-          <div className="-mr-2 flex md:hidden">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              type="button"
-              className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-              aria-controls="mobile-menu"
-              aria-expanded="false"
-            >
-              <span className="sr-only">Abrir menú principal</span>
-              {isOpen ? <X className="block h-6 w-6" /> : <Menu className="block h-6 w-6" />}
-            </button>
-          </div>
-        </div>
-      </div>
+    <nav className="bg-gray-900/70 backdrop-blur-md border-b border-gray-700/50 fixed w-full z-50 shadow-lg">
+      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
+        <a className="text-white text-xl font-bold tracking-wide">
+          José<span className="text-blue-400">Mora</span>
+        </a>
 
-      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`} id="mobile-menu">
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="hidden md:flex space-x-6">
           {navItems.map(item => (
-            <MobileNavLink key={item.label} href={item.href} onClick={() => setIsOpen(false)}>
+            <a
+              key={item.label}
+              href={item.href}
+              className="text-gray-300 hover:text-blue-400 transition-all duration-200 hover:scale-105"
+            >
               {item.label}
-            </MobileNavLink>
+            </a>
           ))}
         </div>
+
+        {/* Mobile menu */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden text-gray-300 hover:text-blue-400"
+        >
+          {isOpen ? <X /> : <Menu />}
+        </button>
       </div>
+
+      {isOpen && (
+        <div className="md:hidden bg-gray-900/90 px-4 pb-4 space-y-3">
+          {navItems.map(item => (
+            <a key={item.label} href={item.href} className="block text-gray-300 hover:text-blue-400">
+              {item.label}
+            </a>
+          ))}
+        </div>
+      )}
     </nav>
   );
 };
 
+/* ==========================
+        HERO
+========================== */
+
 const Hero = () => (
-  <section id="home" className="pt-32 pb-20 bg-gray-900 text-white min-h-screen flex items-center">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <img 
-        src={profileData.avatarUrl} 
-        alt="Foto de perfil de José Mora" 
-        className="w-36 h-36 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-500 shadow-lg"
+  <section id="home" className="pt-32 pb-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen flex items-center">
+    <div className="max-w-7xl mx-auto px-4 text-center">
+      <img
+        src={profileData.avatarUrl}
+        className="w-36 h-36 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-500 shadow-lg shadow-blue-500/30 animate-[float_4s_ease-in-out_infinite]"
       />
-      <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-300 mb-4">
+
+      <h1 className={`text-5xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-300 ${fadeIn}`}>
         {profileData.name}
       </h1>
-      <p className="text-2xl md:text-3xl text-gray-300 mb-8">
+
+      <p className={`text-2xl md:text-3xl text-gray-300 mt-3 ${fadeInUp}`}>
         {profileData.title}
       </p>
-      <div className="flex justify-center space-x-6 mb-12">
-        <a href={profileData.socials.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-transform duration-300 hover:scale-110">
-          <Github size={32} />
-          <span className="sr-only">GitHub</span>
-        </a>
-        <a href={profileData.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-transform duration-300 hover:scale-110">
-          <Linkedin size={32} />
-          <span className="sr-only">LinkedIn</span>
-        </a>
-        <a href={`mailto:${profileData.email}`} className="text-gray-400 hover:text-blue-400 transition-transform duration-300 hover:scale-110">
-          <Mail size={32} />
-          <span className="sr-only">Email</span>
-        </a>
+
+      <div className="flex justify-center mt-8 space-x-6">
+        {[ 
+          { icon: Github, url: profileData.socials.github },
+          { icon: Linkedin, url: profileData.socials.linkedin },
+          { icon: Mail, url: `mailto:${profileData.email}` },
+        ].map((item, i) => (
+          <a key={i} href={item.url} target="_blank" className="text-gray-300 hover:text-blue-400 transition-transform hover:scale-125">
+            <item.icon size={32} />
+          </a>
+        ))}
       </div>
+
       <a
         href={profileData.cvLink}
         target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1"
+        className="inline-flex items-center bg-blue-600 hover:bg-blue-700 mt-10 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-blue-500/40 transition-all hover:-translate-y-1"
       >
-        <Download className="mr-3 h-5 w-5" />
-        Descargar CV
+        <Download className="mr-2" /> Descargar CV
       </a>
     </div>
   </section>
 );
 
+/* ==========================
+      SECCIÓN GENÉRICA
+========================== */
+
 const SectionTitle = ({ title, icon: Icon }) => (
   <div className="flex items-center justify-center mb-12">
     <Icon className="text-blue-400 w-8 h-8 mr-3" />
-    <h2 className="text-3xl md:text-4xl font-bold text-white">{title}</h2>
+    <h2 className="text-4xl font-bold text-white tracking-wide">{title}</h2>
   </div>
 );
 
+/* =====================
+      ABOUT
+===================== */
+
 const About = () => (
   <section id="about" className="py-20 bg-gray-800">
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-4xl mx-auto px-4 text-center">
       <SectionTitle title="Sobre Mí" icon={Brain} />
-      <p className="text-center text-lg text-gray-300 leading-relaxed">
+      <p className="text-gray-300 text-lg leading-relaxed whitespace-pre-line">
         {profileData.summary}
       </p>
     </div>
   </section>
 );
 
+/* ==========================
+      SKILLS
+========================== */
+
 const SkillBadge = ({ children }) => (
-  <span className="inline-block bg-gray-700 text-gray-200 rounded-full px-4 py-2 text-sm font-medium transition-transform duration-200 hover:scale-105 hover:bg-blue-500">
+  <span className="inline-block bg-gray-700/70 backdrop-blur-md px-4 py-2 rounded-full text-sm text-gray-200 hover:bg-blue-500 hover:text-white transition-all duration-200 shadow-md">
     {children}
   </span>
 );
 
 const Skills = () => (
   <section id="skills" className="py-20 bg-gray-900">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto px-4">
       <SectionTitle title="Habilidades Técnicas" icon={Code} />
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {skillsData.map(category => (
-          <div key={category.category} className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-            <h3 className="text-xl font-semibold text-white mb-4 flex items-center">
-              <category.icon className="w-6 h-6 mr-3 text-blue-400" />
+          <div
+            key={category.category}
+            className={`p-6 rounded-xl shadow-lg ${glass} ${glowingBorder} ${cardHover}`}
+          >
+            <h3 className="text-xl text-white font-semibold flex items-center mb-4">
+              <category.icon className="text-blue-400 w-6 h-6 mr-3" />
               {category.category}
             </h3>
+
             <div className="flex flex-wrap gap-2">
-              {category.items.map(skill => (
-                <SkillBadge key={skill}>{skill}</SkillBadge>
-              ))}
+              {category.items.map(skill => <SkillBadge key={skill}>{skill}</SkillBadge>)}
             </div>
           </div>
         ))}
@@ -384,31 +413,38 @@ const Skills = () => (
   </section>
 );
 
+/* ==========================
+    EXPERIENCE (Timeline mejorado)
+========================== */
+
 const Experience = () => (
   <section id="experience" className="py-20 bg-gray-800">
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-4xl mx-auto px-4">
       <SectionTitle title="Experiencia Profesional" icon={Briefcase} />
-      <div className="relative border-l-2 border-blue-500 ml-4 md:ml-0">
+
+      <div className="relative border-l-2 border-blue-500/40 ml-4">
         {experienceData.map((job, index) => (
-          <div key={index} className="mb-10 ml-8 md:ml-12">
-            <span className="absolute flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full -left-4 ring-8 ring-gray-800">
-              <Briefcase className="w-4 h-4 text-white" />
-            </span>
-            <div className="bg-gray-900 p-6 rounded-lg shadow-lg border border-gray-700">
-              <div className="flex flex-col sm:flex-row justify-between sm:items-center mb-2">
-                <h3 className="text-2xl font-semibold text-white">{job.role}</h3>
-                <span className="text-sm font-medium text-blue-400 mt-2 sm:mt-0">{job.period}</span>
-              </div>
-              <p className="text-lg font-medium text-gray-300 mb-3">{job.company}</p>
-              <p className="text-gray-400 mb-4">{job.description}</p>
-              <div className="flex flex-wrap gap-2">
+          <div key={index} className="mt-10 ml-10 relative">
+            <span className="absolute w-6 h-6 bg-blue-600 rounded-full -left-14 border-4 border-gray-800 shadow-lg shadow-blue-500/30" />
+
+            <div className={`p-6 rounded-xl ${glass} ${glowingBorder} ${cardHover}`}>
+              <h3 className="text-2xl text-white font-bold">{job.role}</h3>
+              <p className="text-blue-400 font-semibold">{job.period}</p>
+              <p className="text-gray-300 font-medium mt-1">{job.company}</p>
+
+              <p className="text-gray-400 mt-3 whitespace-pre-line">
+                {job.description}
+              </p>
+
+              <div className="flex flex-wrap gap-2 mt-4">
                 {job.tags.map(tag => (
-                  <span key={tag} className="bg-gray-700 text-blue-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">
+                  <span key={tag} className="bg-gray-700/70 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">
                     {tag}
                   </span>
                 ))}
               </div>
             </div>
+
           </div>
         ))}
       </div>
@@ -416,38 +452,32 @@ const Experience = () => (
   </section>
 );
 
+/* ==========================
+      PROJECTS
+========================== */
+
 const ProjectCard = ({ title, description, imageUrl, tags, liveUrl, repoUrl }) => (
-  <div className="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-[1.02] border border-gray-700 flex flex-col">
-    <img className="w-full h-48 object-cover" src={imageUrl} alt={title} />
+  <div className={`rounded-xl ${glass} ${glowingBorder} shadow-xl overflow-hidden ${cardHover} flex flex-col`}>
+    <img
+      src={imageUrl}
+      className="h-48 w-full object-cover transition-transform duration-300 hover:scale-110"
+    />
+
     <div className="p-6 flex flex-col flex-grow">
-      <h3 className="text-2xl font-bold text-white mb-2">{title}</h3>
-      <p className="text-gray-400 mb-4 flex-grow">{description}</p>
-      <div className="mb-4 flex flex-wrap gap-2">
+      <h3 className="text-white text-2xl font-bold">{title}</h3>
+      <p className="text-gray-400 mt-2 flex-grow">{description}</p>
+
+      <div className="mt-3 flex flex-wrap gap-2">
         {tags.map(tag => (
-          <span key={tag} className="bg-gray-700 text-blue-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">
+          <span key={tag} className="bg-gray-700/70 px-3 py-1 rounded-full text-blue-300 text-xs font-semibold">
             {tag}
           </span>
         ))}
       </div>
-      <div className="mt-auto flex space-x-4">
-        <a
-          href={liveUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`flex-1 text-center py-2 px-4 rounded-md font-medium transition-colors ${liveUrl === '#' ? 'bg-gray-600 text-gray-400 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'}`}
-          aria-disabled={liveUrl === '#'}
-        >
-          Ver Demo
-        </a>
-        <a
-          href={repoUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`flex-1 text-center py-2 px-4 rounded-md font-medium transition-colors ${repoUrl === '#' ? 'bg-gray-600 text-gray-400 cursor-not-allowed' : 'bg-gray-700 text-white hover:bg-gray-600'}`}
-          aria-disabled={repoUrl === '#'}
-        >
-          Ver Código
-        </a>
+
+      <div className="mt-6 flex space-x-4">
+        <a href={liveUrl} target="_blank" className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md text-center transition-all">Demo</a>
+        <a href={repoUrl} target="_blank" className="flex-1 bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-md text-center transition-all">Código</a>
       </div>
     </div>
   </div>
@@ -455,33 +485,34 @@ const ProjectCard = ({ title, description, imageUrl, tags, liveUrl, repoUrl }) =
 
 const Projects = () => (
   <section id="projects" className="py-20 bg-gray-900">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto px-4">
       <SectionTitle title="Proyectos Destacados" icon={Award} />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projectsData.map(project => (
-          <ProjectCard key={project.title} {...project} />
-        ))}
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {projectsData.map(project => <ProjectCard key={project.title} {...project} />)}
       </div>
     </div>
   </section>
 );
 
+/* ==========================
+     EDUCATION
+========================== */
+
 const Education = () => (
   <section id="education" className="py-20 bg-gray-800">
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <SectionTitle title="Educación y Certificaciones" icon={BookOpen} />
-      <div className="relative border-l-2 border-blue-500 ml-4 md:ml-0">
+    <div className="max-w-4xl mx-auto px-4">
+      <SectionTitle title="Educación & Certificaciones" icon={BookOpen} />
+
+      <div className="border-l-2 border-blue-500/40 ml-6">
         {educationData.map((edu, index) => (
-          <div key={index} className="mb-10 ml-8 md:ml-12">
-            <span className="absolute flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full -left-4 ring-8 ring-gray-800">
-              {edu.institution === 'Udemy' ? <Award className="w-4 h-4 text-white" /> : <BookOpen className="w-4 h-4 text-white" />}
-            </span>
-            <div className="bg-gray-900 p-6 rounded-lg shadow-lg border border-gray-700">
-              <div className="flex flex-col sm:flex-row justify-between sm:items-center mb-2">
-                <h3 className="text-xl md:text-2xl font-semibold text-white">{edu.degree}</h3>
-                <span className="text-sm font-medium text-blue-400 mt-2 sm:mt-0">{edu.period}</span>
-              </div>
-              <p className="text-lg font-medium text-gray-300">{edu.institution}</p>
+          <div key={index} className="ml-10 relative mt-10">
+            <span className="absolute w-6 h-6 bg-blue-600 rounded-full -left-14 border-4 border-gray-800 shadow-lg shadow-blue-500/30" />
+
+            <div className={`p-6 rounded-xl ${glass} ${glowingBorder} ${cardHover}`}>
+              <h3 className="text-xl text-white font-semibold">{edu.degree}</h3>
+              <p className="text-blue-400 font-medium">{edu.period}</p>
+              <p className="text-gray-300 font-medium mt-1">{edu.institution}</p>
             </div>
           </div>
         ))}
@@ -490,27 +521,30 @@ const Education = () => (
   </section>
 );
 
+/* ==========================
+      CONTACT
+========================== */
+
 const Contact = () => (
-  <section id="contact" className="py-20 bg-gray-800">
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  <section id="contact" className="py-20 bg-gray-900">
+    <div className="max-w-3xl mx-auto px-4 text-center">
       <SectionTitle title="Hablemos" icon={MessageSquare} />
-      <p className="text-xl text-gray-300 mb-8">
-        Estoy disponible para nuevas oportunidades y colaboraciones.
-      </p>
-      <div className="space-y-6">
-        <a 
-          href={`mailto:${profileData.email}`} 
-          className="inline-flex items-center justify-center bg-gray-700 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg w-full md:w-auto text-lg transition-colors"
-        >
-          <Mail className="w-5 h-5 mr-3" />
+
+      <p className="text-gray-300 text-lg mb-8">Estoy disponible para nuevas oportunidades y proyectos.</p>
+
+      <div className="flex flex-col items-center space-y-4">
+        <a href={`mailto:${profileData.email}`} className="flex items-center bg-gray-800 px-6 py-3 rounded-lg text-white hover:bg-blue-600 transition-all shadow-lg">
+          <Mail className="mr-3" />
           {profileData.email}
         </a>
-        <div className="inline-flex items-center justify-center bg-gray-700 text-white font-medium py-3 px-6 rounded-lg w-full md:w-auto text-lg">
-          <Phone className="w-5 h-5 mr-3" />
+
+        <div className="flex items-center bg-gray-800 px-6 py-3 rounded-lg text-white shadow-lg">
+          <Phone className="mr-3" />
           {profileData.phone}
         </div>
-        <div className="inline-flex items-center justify-center bg-gray-700 text-white font-medium py-3 px-6 rounded-lg w-full md:w-auto text-lg">
-          <MapPin className="w-5 h-5 mr-3" />
+
+        <div className="flex items-center bg-gray-800 px-6 py-3 rounded-lg text-white shadow-lg">
+          <MapPin className="mr-3" />
           {profileData.location}
         </div>
       </div>
@@ -518,42 +552,46 @@ const Contact = () => (
   </section>
 );
 
+/* ==========================
+      FOOTER
+========================== */
+
 const Footer = () => (
-  <footer className="bg-gray-900 py-8">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  <footer className="bg-gray-950 py-8">
+    <div className="max-w-7xl mx-auto px-4 text-center">
       <div className="flex justify-center space-x-6 mb-4">
-        <a href={profileData.socials.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+        <a href={profileData.socials.github} className="text-gray-400 hover:text-blue-400 transition-all">
           <Github size={28} />
         </a>
-        <a href={profileData.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+        <a href={profileData.socials.linkedin} className="text-gray-400 hover:text-blue-400 transition-all">
           <Linkedin size={28} />
         </a>
-        <a href={`mailto:${profileData.email}`} className="text-gray-400 hover:text-blue-400 transition-colors">
+        <a href={`mailto:${profileData.email}`} className="text-gray-400 hover:text-blue-400 transition-all">
           <Mail size={28} />
         </a>
       </div>
-      <p className="text-gray-500">
-        &copy; {new Date().getFullYear()} {profileData.name}. Diseñado con React & Tailwind CSS.
+      <p className="text-gray-500 text-sm">
+        © {new Date().getFullYear()} {profileData.name} — Portafolio construido con React & Tailwind CSS.
       </p>
     </div>
   </footer>
 );
 
-// --- COMPONENTE PRINCIPAL DE LA APP ---
+/* ==========================
+      APP WRAPPER
+========================== */
 
 export default function App() {
   return (
     <div className="bg-gray-900 font-sans">
       <Header />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Education />
-        <Contact />
-      </main>
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Education />
+      <Contact />
       <Footer />
     </div>
   );
