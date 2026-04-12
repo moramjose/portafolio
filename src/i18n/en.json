@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "techStack": "Tech Stack",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Jose Mora",
+    "title": "Full Stack Software Engineer",
+    "subtitle": "+6 years building complete digital ecosystems. From code to infrastructure.",
+    "available": "Available",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "sectionNumber": "01.",
+    "title": "About me",
+    "p1": "As a Full Stack Software Engineer, my focus goes beyond code: I specialize in designing and orchestrating <highlight>complete digital ecosystems</highlight>, ensuring their functionality, performance, security, and scalability from development to deployment.",
+    "p2": "My greatest strength is <highlight>connecting the seemingly unconnectable</highlight>. I have a proven track record architecting interoperability between disparate platforms (Laravel, .NET, WordPress) and automating critical business processes.",
+    "p3": "Recently, I've deepened into DevOps culture and Microservices architecture, implementing containerized Linux server environments with Docker, with advanced network security and full observability.",
+    "stats": {
+      "years": "Years of experience",
+      "projects": "Projects delivered",
+      "apps": "Published apps",
+      "countries": "Countries"
+    }
+  },
+  "experience": {
+    "sectionNumber": "02.",
+    "title": "Experience",
+    "viewProject": "View project",
+    "items": [
+      {
+        "period": "2026 - Present",
+        "company": "Hablax INC.",
+        "role": "Mobile Application Developer",
+        "location": "Delaware, USA",
+        "description": "Development and maintenance of the international mobile recharge app with React Native, published on Google Play and App Store. Implementation of payment gateways, push notifications, and performance optimization for Latin American and US markets."
+      },
+      {
+        "period": "2026 - Present",
+        "company": "Faim Lab",
+        "role": "Web Development & Webmastering",
+        "location": "Florida, USA",
+        "description": "Development, deployment, and administration of 5+ websites for clients in the US and Latin America. Corporate sites, WooCommerce e-commerce, content portals, and landing pages optimized for SEO and conversion."
+      },
+      {
+        "period": "2024 - 2026",
+        "company": "Squuad",
+        "role": "Full Stack Developer",
+        "location": "Florida, USA",
+        "description": "Replicated and scaled the complete software architecture (Laravel/WordPress/Moodle) for the launch of American Elite School, Florida Global University, and Universidad Tecnológica Baden Powell. Automated enrollments with a business rules engine and real-time MySQL database synchronization."
+      },
+      {
+        "period": "2025 - 2026",
+        "company": "Grupo Estrella",
+        "role": "Automation Developer",
+        "location": "Dominican Republic",
+        "description": "Digitized and optimized personnel management processes using the complete Microsoft stack. Designed end-to-end solutions with Power Apps, Power Automate, SharePoint, and SQL Server, eliminating critical bottlenecks and enabling real-time reporting with Power BI."
+      },
+      {
+        "period": "2022 - 2023",
+        "company": "Progracademy",
+        "role": "Full Stack Developer",
+        "location": "Madrid, Spain",
+        "description": "Built and scaled the e-learning platform. Integrated Microsoft 365 via Graph API to automate Teams classes. Implemented Business Intelligence with Power BI and developed Web Scraping modules for automatic data ingestion."
+      },
+      {
+        "period": "2019 - 2025",
+        "company": "De One",
+        "role": "Full Stack Developer",
+        "location": "Venezuela",
+        "description": "As the sole developer, designed the complete delivery ecosystem: RESTful API in Laravel, 4 mobile apps in Ionic, web panels in Angular, real-time geolocation, and full deployment on AWS."
+      },
+      {
+        "period": "2021 - 2022",
+        "company": "Mandaditos CR",
+        "role": "Full Stack Developer",
+        "location": "Costa Rica",
+        "description": "Implemented the real-time tracking module with custom maps, native hardware integration (Camera, GPS), and spatial SQL query optimization."
+      }
+    ]
+  },
+  "projects": {
+    "sectionNumber": "04.",
+    "title": "Projects",
+    "linkLabel": "link",
+    "linksLabel": "links",
+    "items": {
+      "deone": { "title": "De One - Delivery Platform", "description": "Complete delivery ecosystem: RESTful API in Laravel, 4 mobile apps (Customer, Partner, Driver, Kitchen) in Ionic, web panels in Angular, real-time geolocation, and AWS deployment." },
+      "progracademy": { "title": "Progracademy - E-learning", "description": "E-learning platform with Microsoft 365 integration via Graph API for automating Teams classes, Business Intelligence with Power BI, and web scraping for automatic content ingestion." },
+      "squuad": { "title": "Squuad - University Portals", "description": "Academic management system and virtual classroom replicated for 3 universities. Automated enrollment engine with business rules. Laravel + WordPress + Moodle integration with real-time sync." },
+      "faimlab": { "title": "Faim Lab - Web Development", "description": "Development and administration of multiple digital platforms for clients in the US and Latin America. Corporate sites, e-commerce, and content portals." },
+      "hablax": { "title": "Hablax - Mobile Recharge App", "description": "International mobile recharge application for the Hablax communications platform. Available on Android and iOS." },
+      "homelab": { "title": "Homelab - Home Enterprise Server", "description": "Ubuntu server with containerized microservices architecture. AdGuard Home, Nginx Proxy Manager, Cloudflare Tunnel, Netdata monitoring, WireGuard VPN, and custom management CLI." }
+    }
+  },
+  "contact": {
+    "sectionNumber": "05.",
+    "title": "Contact",
+    "description": "I'm open to new opportunities and collaborations. If you have a project in mind or just want to connect, don't hesitate to reach out.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "sent": "Message sent successfully.",
+    "error": "Error sending. Try again or write me directly."
+  },
+  "footer": {
+    "copyright": "Jose Mora. Self-hosted with Docker.",
+    "builtWith": "Built with React + Vite + Tailwind"
+  }
+}

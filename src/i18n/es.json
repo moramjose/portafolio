@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "techStack": "Tech Stack",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Jose Mora",
+    "title": "Ingeniero de Software Full Stack",
+    "subtitle": "+6 años construyendo ecosistemas digitales completos. Desde el código hasta la infraestructura.",
+    "available": "Disponible",
+    "contact": "Contactar",
+    "downloadCV": "Descargar CV"
+  },
+  "about": {
+    "sectionNumber": "01.",
+    "title": "Sobre mí",
+    "p1": "Como Ingeniero de Software Full Stack, mi enfoque va más allá del código: me especializo en diseñar y orquestar <highlight>ecosistemas digitales completos</highlight>, garantizando su funcionalidad, rendimiento, seguridad y escalabilidad desde el desarrollo hasta el despliegue.",
+    "p2": "Mi mayor fortaleza es <highlight>conectar lo que parece inconectable</highlight>. Tengo un historial probado arquitectando la interoperabilidad entre plataformas dispares (Laravel, .NET, WordPress) y automatizando procesos de negocio críticos.",
+    "p3": "Recientemente, he profundizado en la cultura DevOps y la arquitectura de Microservicios, implementando entornos de servidores Linux contenerizados con Docker, con seguridad de red avanzada y observabilidad total.",
+    "stats": {
+      "years": "Años de experiencia",
+      "projects": "Proyectos entregados",
+      "apps": "Apps publicadas",
+      "countries": "Países"
+    }
+  },
+  "experience": {
+    "sectionNumber": "02.",
+    "title": "Experiencia",
+    "viewProject": "Ver proyecto",
+    "items": [
+      {
+        "period": "2026 - Presente",
+        "company": "Hablax INC.",
+        "role": "Desarrollador de Aplicaciones Móviles",
+        "location": "Delaware, USA",
+        "description": "Desarrollo y mantenimiento de la app de recargas móviles internacionales con React Native, publicada en Google Play y App Store. Implementación de pasarelas de pago, notificaciones push y optimización de rendimiento para mercados de Latinoamérica y USA."
+      },
+      {
+        "period": "2026 - Presente",
+        "company": "Faim Lab",
+        "role": "Desarrollo Web y Webmastering",
+        "location": "Florida, USA",
+        "description": "Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica. Sitios corporativos, e-commerce con WooCommerce, portales de contenido y landing pages optimizadas para SEO y conversión."
+      },
+      {
+        "period": "2024 - 2026",
+        "company": "Squuad",
+        "role": "Desarrollador Full Stack",
+        "location": "Florida, USA",
+        "description": "Repliqué y escalé la arquitectura de software completa (Laravel/WordPress/Moodle) para el lanzamiento de American Elite School, Florida Global University y Universidad Tecnológica Baden Powell. Automaticé inscripciones con un motor de reglas de negocio y sincronización de bases de datos MySQL en tiempo real."
+      },
+      {
+        "period": "2025 - 2026",
+        "company": "Grupo Estrella",
+        "role": "Desarrollador de Automatización",
+        "location": "República Dominicana",
+        "description": "Digitalicé y optimicé los procesos de gestión de personal utilizando el stack completo de Microsoft. Diseñé soluciones end-to-end con Power Apps, Power Automate, SharePoint y SQL Server, eliminando cuellos de botella críticos y habilitando reportes en tiempo real con Power BI."
+      },
+      {
+        "period": "2022 - 2023",
+        "company": "Progracademy",
+        "role": "Desarrollador Full Stack",
+        "location": "Madrid, España",
+        "description": "Construí y escalé la plataforma de e-learning. Integré Microsoft 365 vía Graph API para automatizar clases en Teams. Implementé Business Intelligence con Power BI y desarrollé módulos de Web Scraping para ingesta automática de datos."
+      },
+      {
+        "period": "2019 - 2025",
+        "company": "De One",
+        "role": "Desarrollador Full Stack",
+        "location": "Venezuela",
+        "description": "Como único desarrollador, diseñé el ecosistema completo de delivery: API RESTful en Laravel, 4 apps móviles en Ionic, paneles web en Angular, geolocalización en tiempo real y despliegue completo en AWS."
+      },
+      {
+        "period": "2021 - 2022",
+        "company": "Mandaditos CR",
+        "role": "Desarrollador Full Stack",
+        "location": "Costa Rica",
+        "description": "Implementé el módulo de seguimiento en tiempo real con mapas personalizados, integración de hardware nativo (Cámara, GPS) y optimización de consultas SQL espaciales."
+      }
+    ]
+  },
+  "projects": {
+    "sectionNumber": "04.",
+    "title": "Proyectos",
+    "linkLabel": "enlace",
+    "linksLabel": "enlaces",
+    "items": {
+      "deone": { "title": "De One - Plataforma de Delivery", "description": "Ecosistema completo de delivery: API RESTful en Laravel, 4 apps móviles (Cliente, Socio, Repartidor, Cocina) en Ionic, paneles web en Angular, geolocalización en tiempo real y despliegue en AWS." },
+      "progracademy": { "title": "Progracademy - E-learning", "description": "Plataforma de e-learning con integración de Microsoft 365 vía Graph API para automatizar clases en Teams, Business Intelligence con Power BI y web scraping para ingesta automática de contenido." },
+      "squuad": { "title": "Squuad - Portales Universitarios", "description": "Sistema de gestión académica y aula virtual replicado para 3 universidades. Motor de inscripción automatizado con reglas de negocio. Integración Laravel + WordPress + Moodle con sincronización en tiempo real." },
+      "faimlab": { "title": "Faim Lab - Desarrollo Web", "description": "Desarrollo y administración de múltiples plataformas digitales para clientes en USA y Latinoamérica. Sitios corporativos, e-commerce y portales de contenido." },
+      "hablax": { "title": "Hablax - App de Recargas Móviles", "description": "Aplicación móvil de recargas internacionales para la plataforma de comunicaciones Hablax. Disponible en Android e iOS." },
+      "homelab": { "title": "Homelab - Servidor Enterprise en Casa", "description": "Servidor Ubuntu con arquitectura de microservicios contenerizada. AdGuard Home, Nginx Proxy Manager, Cloudflare Tunnel, monitoreo con Netdata, VPN con WireGuard y CLI personalizado para gestión." }
+    }
+  },
+  "contact": {
+    "sectionNumber": "05.",
+    "title": "Contacto",
+    "description": "Estoy abierto a nuevas oportunidades y colaboraciones. Si tienes un proyecto en mente o simplemente quieres conectar, no dudes en escribirme.",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "Tu email",
+    "messagePlaceholder": "Tu mensaje...",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "sent": "Mensaje enviado correctamente.",
+    "error": "Error al enviar. Intenta de nuevo o escríbeme directamente."
+  },
+  "footer": {
+    "copyright": "Jose Mora. Self-hosted con Docker.",
+    "builtWith": "Hecho con React + Vite + Tailwind"
+  }
+}

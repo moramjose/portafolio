@@ -1,6 +1,9 @@
-import profileImg from '../assets/profile.jpg'
+import profileImg from '../assets/profile.webp'
+import { useLang } from '../i18n/LanguageContext'
 
 export default function Hero() {
+  const { t } = useLang()
+
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="max-w-4xl mx-auto text-center">
@@ -15,21 +18,20 @@ export default function Hero() {
           <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-primary/20 border border-primary/40 rounded-full px-3 py-1">
             <span className="text-primary text-xs font-mono flex items-center gap-1">
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-              Disponible
+              {t.hero.available}
             </span>
           </div>
         </div>
 
-        <p className="text-primary font-mono text-sm mb-4 tracking-wider">Hola, soy</p>
+        <p className="text-primary font-mono text-sm mb-4 tracking-wider">{t.hero.greeting}</p>
         <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-text-primary to-text-secondary bg-clip-text text-transparent">
-          Jose Mora
+          {t.hero.name}
         </h1>
         <h2 className="text-xl md:text-2xl text-text-secondary mb-8">
-          Ingeniero de Software Full Stack
+          {t.hero.title}
         </h2>
         <p className="text-text-muted max-w-2xl mx-auto mb-10 leading-relaxed">
-          +6 años de experiencia diseñando ecosistemas digitales completos.
-          Desde el código hasta la infraestructura.
+          {t.hero.subtitle}
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
@@ -56,12 +58,21 @@ export default function Hero() {
             className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-white hover:bg-primary-dark transition-all font-medium"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-            Contactar
+            {t.hero.contact}
+          </a>
+          <a
+            href="https://moraser.org/cv-jose-mora.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-bg-card border border-border hover:border-primary/50 text-text-secondary hover:text-primary transition-all"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+            {t.hero.downloadCV}
           </a>
         </div>
 
-        <div className="mt-16 animate-bounce">
-          <a href="#sobre-mi" className="text-text-muted hover:text-primary transition-colors">
+        <div className="mt-16">
+          <a href="#sobre-mi" className="text-text-muted hover:text-primary transition-colors inline-block animate-[float_3s_ease-in-out_infinite]">
             <svg className="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg>
           </a>
         </div>
