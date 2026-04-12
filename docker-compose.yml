@@ -1,0 +1,12 @@
+services:
+  portafolio:
+    build: .
+    container_name: portafolio
+    restart: unless-stopped
+    networks:
+      - homelab
+
+networks:
+  homelab:
+    name: homelab
+    external: true
