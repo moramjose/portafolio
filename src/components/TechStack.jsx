@@ -34,6 +34,7 @@ const categories = [
       { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg' },
       { name: 'Moodle', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/moodle/moodle-original.svg' },
       { name: 'Power Platform', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg' },
+      { name: 'n8n', icon: 'https://cdn.simpleicons.org/n8n/EA4B71' },
     ],
   },
   {
@@ -50,34 +51,34 @@ const categories = [
 
 export default function TechStack() {
   return (
-    <section id="tech-stack" className="py-24 px-6">
+    <section id="tech-stack" className="py-16 sm:py-24 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
         <AnimateIn>
-          <div className="flex items-center gap-3 mb-12">
+          <div className="flex items-center gap-3 mb-10 sm:mb-12">
             <span className="text-primary font-mono text-sm">03.</span>
-            <h2 className="text-3xl font-bold">Tech Stack</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold">Tech Stack</h2>
             <div className="flex-1 h-px bg-border ml-4"></div>
           </div>
         </AnimateIn>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {categories.map((cat, i) => (
             <AnimateIn key={cat.title} delay={i * 0.1}>
-              <div className="bg-bg-card border border-border rounded-lg p-6 h-full">
-                <h3 className="text-primary font-mono text-sm mb-5 uppercase tracking-wider">{cat.title}</h3>
-                <div className="grid grid-cols-3 gap-4">
+              <div className="bg-bg-card border border-border rounded-lg p-5 sm:p-6 h-full">
+                <h3 className="text-primary font-mono text-sm mb-4 sm:mb-5 uppercase tracking-wider">{cat.title}</h3>
+                <div className="grid grid-cols-3 gap-2 sm:gap-4">
                   {cat.items.map((item) => (
                     <div
                       key={item.name}
-                      className="flex flex-col items-center gap-2 p-3 rounded-lg hover:bg-bg-card-hover transition-colors group"
+                      className="flex flex-col items-center gap-2 p-2 sm:p-3 rounded-lg hover:bg-bg-card-hover transition-colors group"
                     >
                       <img
                         src={item.icon}
                         alt={item.name}
-                        className="w-10 h-10 group-hover:scale-110 transition-transform"
+                        className="w-8 h-8 sm:w-10 sm:h-10 group-hover:scale-110 transition-transform"
                         loading="lazy"
                       />
-                      <span className="text-text-muted text-xs text-center">{item.name}</span>
+                      <span className="text-text-muted text-[10px] sm:text-xs text-center">{item.name}</span>
                     </div>
                   ))}
                 </div>

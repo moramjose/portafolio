@@ -15,12 +15,12 @@ export default function Experience() {
   const { t } = useLang()
 
   return (
-    <section id="experiencia" className="py-24 px-6 bg-bg-card/30">
+    <section id="experiencia" className="py-16 sm:py-24 px-4 sm:px-6 bg-bg-card/30">
       <div className="max-w-5xl mx-auto">
         <AnimateIn>
-          <div className="flex items-center gap-3 mb-12">
+          <div className="flex items-center gap-3 mb-10 sm:mb-12">
             <span className="text-primary font-mono text-sm">{t.experience.sectionNumber}</span>
-            <h2 className="text-3xl font-bold">{t.experience.title}</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold">{t.experience.title}</h2>
             <div className="flex-1 h-px bg-border ml-4"></div>
           </div>
         </AnimateIn>
@@ -37,10 +37,10 @@ export default function Experience() {
                     <div className="absolute left-0 md:left-[140px] top-2 w-3 h-3 -translate-x-1.5 rounded-full bg-primary border-2 border-bg-dark"></div>
 
                     <div className="md:w-[120px] shrink-0 md:text-right">
-                      <span className="text-primary font-mono text-sm">{exp.period}</span>
+                      <span className="text-primary font-mono text-xs sm:text-sm">{exp.period}</span>
                     </div>
 
-                    <div className="md:pl-8 bg-bg-card border border-border rounded-lg p-6 flex-1 hover:border-primary/30 transition-colors">
+                    <div className="md:pl-8 bg-bg-card border border-border rounded-lg p-4 sm:p-6 flex-1 hover:border-primary/30 transition-colors">
                       <h3 className="text-lg font-semibold text-text-primary">{exp.role}</h3>
                       <p className="text-primary font-medium text-sm">{exp.company}</p>
                       {exp.location && <p className="text-text-muted text-xs mb-3">{exp.location}</p>}

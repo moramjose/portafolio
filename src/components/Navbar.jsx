@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all ${scrolled ? 'bg-bg-dark/95 backdrop-blur-md border-b border-border shadow-lg' : 'bg-bg-dark/80 backdrop-blur-md border-b border-border'}`}>
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
         <a href="#" className="text-primary font-mono font-medium text-lg">
           {'<JM />'}
         </a>
@@ -72,8 +72,8 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className={`md:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'}`}>
-        <div className="px-6 pb-6 pt-2 bg-bg-dark/95 backdrop-blur-md border-t border-border space-y-1">
+      <div className={`md:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+        <div className="px-4 sm:px-6 pb-6 pt-2 bg-bg-dark/95 backdrop-blur-md border-t border-border space-y-1">
           {navItems.map((item, i) => (
             <a
               key={item.href}

@@ -110,6 +110,14 @@
     "sent": "Message sent successfully.",
     "error": "Error sending. Try again or write me directly."
   },
+  "chatbot": {
+    "title": "AI Assistant",
+    "placeholder": "Ask me about José...",
+    "welcome": "Hi! 👋 I'm José's AI assistant. Ask me about his experience, projects, or tech stack.",
+    "powered": "Powered by Gemini",
+    "error": "Sorry, there was an error. Please try again.",
+    "rateLimit": "There's high demand right now 🙏. Please try again in a minute, or reach out to José directly via email or WhatsApp."
+  },
   "footer": {
     "copyright": "Jose Mora. Self-hosted with Docker.",
     "builtWith": "Built with React + Vite + Tailwind"
