@@ -28,6 +28,18 @@
       "countries": "Countries"
     }
   },
+  "techStack": {
+    "sectionNumber": "03.",
+    "title": "Tech Stack",
+    "categories": {
+      "backend": "Backend",
+      "frontendMobile": "Frontend & Mobile",
+      "databases": "Databases",
+      "dataBi": "Data & BI",
+      "cmsPlatforms": "CMS & Platforms",
+      "devopsCloud": "DevOps & Cloud"
+    }
+  },
   "experience": {
     "sectionNumber": "02.",
     "title": "Experience",
@@ -35,17 +47,24 @@
     "items": [
       {
         "period": "2026 - Present",
-        "company": "Hablax INC.",
-        "role": "Mobile Application Developer",
-        "location": "Delaware, USA",
-        "description": "Development and maintenance of the international mobile recharge app with React Native, published on Google Play and App Store. Implementation of payment gateways, push notifications, and performance optimization for Latin American and US markets."
-      },
-      {
-        "period": "2026 - Present",
         "company": "Faim Lab",
         "role": "Web Development & Webmastering",
         "location": "Florida, USA",
         "description": "Development, deployment, and administration of 5+ websites for clients in the US and Latin America. Corporate sites, WooCommerce e-commerce, content portals, and landing pages optimized for SEO and conversion."
+      },
+      {
+        "period": "2026 - 2026",
+        "company": "Grupo Estrella",
+        "role": "Data & BI Engineer",
+        "location": "Dominican Republic",
+        "description": "Designed and implemented the MOP model (Product Operating Margin) for the Cement, Concrete, Aggregates, and Clinker segments, replicating SAP ECC transaction logic (MB51, KSB1, VF05, FBL5N, COOIS) from the FI/CO/MM/SD/PP modules in native SQL on SAP HANA. Built 6 production queries, 11 Power Query (M) stages, and a tabular model versioned as a Power BI Project (.pbip/TMDL) with DAX measures and a dimensional rules engine of 2,900+ combinations. Detected and fixed cost duplications worth $8M+ per year, enabling monthly financial reporting fully auditable against the ERP."
+      },
+      {
+        "period": "2026 - 2026",
+        "company": "Hablax INC.",
+        "role": "Mobile Application Developer",
+        "location": "Delaware, USA",
+        "description": "Maintenance and evolution of the international mobile top-up app (React Native, iOS and Android). Integrated the NMI payment processor, fixed legacy defects from prior development cycles, shipped new features, and managed releases on the App Store and Google Play. Direct production support for users in Latin America and the US."
       },
       {
         "period": "2024 - 2026",
@@ -90,6 +109,7 @@
     "linkLabel": "link",
     "linksLabel": "links",
     "items": {
+      "mop": { "title": "MOP - Product Operating Margin Model", "description": "Business intelligence model for the Cement, Concrete, Aggregates, and Clinker segments at Grupo Estrella. Replicated SAP ECC logic (FI/CO/MM/SD/PP) in native SQL on SAP HANA, with a versioned tabular model in Power BI Project (.pbip/TMDL) and a dimensional rules engine of 2,900+ combinations." },
       "deone": { "title": "De One - Delivery Platform", "description": "Complete delivery ecosystem: RESTful API in Laravel, 4 mobile apps (Customer, Partner, Driver, Kitchen) in Ionic, web panels in Angular, real-time geolocation, and AWS deployment." },
       "progracademy": { "title": "Progracademy - E-learning", "description": "E-learning platform with Microsoft 365 integration via Graph API for automating Teams classes, Business Intelligence with Power BI, and web scraping for automatic content ingestion." },
       "squuad": { "title": "Squuad - University Portals", "description": "Academic management system and virtual classroom replicated for 3 universities. Automated enrollment engine with business rules. Laravel + WordPress + Moodle integration with real-time sync." },

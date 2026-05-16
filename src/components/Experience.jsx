@@ -2,8 +2,9 @@ import AnimateIn from './AnimateIn'
 import { useLang } from '../i18n/LanguageContext'
 
 const experienceMeta = [
-  { tags: ['React Native', 'iOS', 'Android', 'REST API'], projectId: 'hablax' },
   { tags: ['WordPress', 'WooCommerce', 'PHP', 'SEO'], projectId: 'faimlab' },
+  { tags: ['SAP HANA', 'Power BI', 'DAX', 'SQL', 'Power Query'], projectId: 'mop' },
+  { tags: ['React Native', 'iOS', 'Android', 'REST API'], projectId: 'hablax' },
   { tags: ['Laravel', 'WordPress', 'Moodle', 'MySQL'], projectId: 'squuad' },
   { tags: ['Power Platform', 'SQL Server', 'SharePoint', 'Power BI'], projectId: null },
   { tags: ['Angular', 'Laravel', 'MS Graph API', 'Power BI'], projectId: 'progracademy' },

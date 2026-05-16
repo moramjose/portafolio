@@ -87,20 +87,29 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 
 ## EXPERIENCIA PROFESIONAL (detallada)
 
-### Hablax INC. — Desarrollador de Aplicaciones Móviles (2026 - Presente)
-📍 Delaware, USA
-- Desarrollo y mantenimiento de la app de recargas móviles internacionales con React Native
-- Publicada en Google Play y App Store
-- Implementación de pasarelas de pago y notificaciones push
-- Optimización de rendimiento para mercados de Latinoamérica y USA
-
 ### Faim Lab — Desarrollo Web y Webmastering (2026 - Presente)
 📍 Florida, USA
 - Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica
 - Sitios corporativos, e-commerce con WooCommerce, portales de contenido
 - Landing pages optimizadas para SEO y conversión
 
-### Grupo Estrella — Desarrollador de Automatizaciones (2025)
+### Grupo Estrella — Ingeniero de Datos & BI (2026)
+📍 República Dominicana
+- Diseñó e implementó el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker
+- Replicó en SQL nativo sobre SAP HANA la lógica de transacciones SAP ECC (MB51, KSB1, VF05, FBL5N, COOIS) de los módulos FI/CO/MM/SD/PP
+- Construyó 6 queries productivos, 11 stages en Power Query (M) y un modelo tabular versionado en Power BI Project (.pbip/TMDL)
+- Implementó medidas DAX y un motor de reglas dimensional de más de 2,900 combinaciones
+- Detectó y corrigió duplicaciones de costos por más de $8M anuales, habilitando reportería financiera mensual auditable contra el ERP
+
+### Hablax INC. — Desarrollador de Aplicaciones Móviles (2026)
+📍 Delaware, USA
+- Mantenimiento y evolución de la app móvil de recargas internacionales con React Native (iOS y Android)
+- Integración del procesador de pagos NMI
+- Corrección de defectos heredados de desarrollos previos
+- Desarrollo de nuevas funcionalidades y gestión de releases en App Store y Google Play
+- Soporte directo en producción para usuarios de Latinoamérica y USA
+
+### Grupo Estrella — Desarrollador de Automatizaciones (2025 - 2026)
 📍 República Dominicana
 - Digitalización y optimización de procesos de gestión de personal (capacitación, evaluación, asistencia) con stack completo de Microsoft
 - Diseñó la solución de captura de datos end-to-end: MS Forms + Power Apps (Canvas Apps)
@@ -108,7 +117,7 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Eliminó cuellos de botella críticos → procesamiento manual reducido a cero
 - Implementó capa BI con Power BI conectado a SQL Server para reportes dinámicos en tiempo real
 
-### Squuad / Florida Global University — Desarrollador Full Stack (2024 - 2025)
+### Squuad / Florida Global University — Desarrollador Full Stack (2024 - 2026)
 📍 Florida, USA
 - Arquitectó y automatizó el Sistema de Gestión Académica (SIS) y el aula virtual (LMS)
 - Automatizó el proceso de inscripción: diseñó un motor de reglas de negocio basado en "matriz de proyección" que procesaba el perfil del estudiante y lo asignaba a su carga académica sin intervención manual
@@ -117,7 +126,7 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Construyó desde cero plugins y temas hijos de WordPress (dominio profundo del core)
 - Lideró el modelado de base de datos MySQL con esquema relacional optimizado
 
-### Squuad / American Elite School — Desarrollador Full Stack (2024 - 2025)
+### Squuad / American Elite School — Desarrollador Full Stack (2024 - 2026)
 📍 Florida, USA
 - Replicó y escaló la arquitectura de software completa (Laravel/WordPress/Moodle) del sistema educativo principal
 - Reconfiguración del motor de automatización de inscripciones y la lógica de sincronización de bases de datos MySQL para operar de forma independiente y concurrente

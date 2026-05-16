@@ -3,6 +3,17 @@ import { useLang } from '../i18n/LanguageContext'
 
 const projectsMeta = [
   {
+    id: 'mop',
+    tags: ['SAP HANA', 'Power BI', 'DAX', 'Power Query (M)', 'SQL'],
+    highlights: {
+      es: ['$8M+ en duplicaciones de costo corregidas', '+2,900 reglas dimensionales', 'Modelo tabular versionado (.pbip/TMDL)'],
+      en: ['$8M+ in cost duplications fixed', '2,900+ dimensional rules', 'Versioned tabular model (.pbip/TMDL)'],
+    },
+    links: [],
+    gradient: 'from-amber-500/20 to-yellow-500/20',
+    accent: 'text-amber-400',
+  },
+  {
     id: 'deone',
     tags: ['Laravel', 'Ionic', 'Angular', 'AWS', 'MySQL', 'Google Maps'],
     highlights: { es: ['4 apps publicadas en stores', 'Geolocalización en tiempo real', 'Infraestructura completa en AWS'], en: ['4 apps published on stores', 'Real-time geolocation', 'Full AWS infrastructure'] },

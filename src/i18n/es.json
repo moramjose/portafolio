@@ -28,6 +28,18 @@
       "countries": "Países"
     }
   },
+  "techStack": {
+    "sectionNumber": "03.",
+    "title": "Tech Stack",
+    "categories": {
+      "backend": "Backend",
+      "frontendMobile": "Frontend & Mobile",
+      "databases": "Bases de Datos",
+      "dataBi": "Data & BI",
+      "cmsPlatforms": "CMS & Plataformas",
+      "devopsCloud": "DevOps & Cloud"
+    }
+  },
   "experience": {
     "sectionNumber": "02.",
     "title": "Experiencia",
@@ -35,17 +47,24 @@
     "items": [
       {
         "period": "2026 - Presente",
-        "company": "Hablax INC.",
-        "role": "Desarrollador de Aplicaciones Móviles",
-        "location": "Delaware, USA",
-        "description": "Desarrollo y mantenimiento de la app de recargas móviles internacionales con React Native, publicada en Google Play y App Store. Implementación de pasarelas de pago, notificaciones push y optimización de rendimiento para mercados de Latinoamérica y USA."
-      },
-      {
-        "period": "2026 - Presente",
         "company": "Faim Lab",
         "role": "Desarrollo Web y Webmastering",
         "location": "Florida, USA",
         "description": "Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica. Sitios corporativos, e-commerce con WooCommerce, portales de contenido y landing pages optimizadas para SEO y conversión."
+      },
+      {
+        "period": "2026 - 2026",
+        "company": "Grupo Estrella",
+        "role": "Ingeniero de Datos & BI",
+        "location": "República Dominicana",
+        "description": "Diseñé e implementé el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker, replicando en SQL nativo sobre SAP HANA la lógica de transacciones SAP ECC (MB51, KSB1, VF05, FBL5N, COOIS) de los módulos FI/CO/MM/SD/PP. Construí 6 queries productivos, 11 stages en Power Query (M) y un modelo tabular versionado en Power BI Project (.pbip/TMDL) con medidas DAX y un motor de reglas dimensional de más de 2,900 combinaciones. Detecté y corregí duplicaciones de costos por más de $8M anuales, habilitando reportería financiera mensual auditable contra el ERP."
+      },
+      {
+        "period": "2026 - 2026",
+        "company": "Hablax INC.",
+        "role": "Desarrollador de Aplicaciones Móviles",
+        "location": "Delaware, USA",
+        "description": "Mantenimiento y evolución de la app móvil de recargas internacionales (React Native, iOS y Android). Integré el procesador de pagos NMI, corregí defectos heredados de desarrollos previos, desarrollé nuevas funcionalidades y gestioné las publicaciones en App Store y Google Play. Soporte directo en producción para usuarios de Latinoamérica y USA."
       },
       {
         "period": "2024 - 2026",
@@ -90,6 +109,7 @@
     "linkLabel": "enlace",
     "linksLabel": "enlaces",
     "items": {
+      "mop": { "title": "MOP - Modelo de Margen Operativo", "description": "Modelo de inteligencia de negocio para los segmentos de Cemento, Concreto, Agregados y Clínker en Grupo Estrella. Replicó lógica SAP ECC (FI/CO/MM/SD/PP) en SQL nativo sobre SAP HANA, con modelo tabular versionado en Power BI Project (.pbip/TMDL) y motor de reglas dimensional de más de 2,900 combinaciones." },
       "deone": { "title": "De One - Plataforma de Delivery", "description": "Ecosistema completo de delivery: API RESTful en Laravel, 4 apps móviles (Cliente, Socio, Repartidor, Cocina) en Ionic, paneles web en Angular, geolocalización en tiempo real y despliegue en AWS." },
       "progracademy": { "title": "Progracademy - E-learning", "description": "Plataforma de e-learning con integración de Microsoft 365 vía Graph API para automatizar clases en Teams, Business Intelligence con Power BI y web scraping para ingesta automática de contenido." },
       "squuad": { "title": "Squuad - Portales Universitarios", "description": "Sistema de gestión académica y aula virtual replicado para 3 universidades. Motor de inscripción automatizado con reglas de negocio. Integración Laravel + WordPress + Moodle con sincronización en tiempo real." },
