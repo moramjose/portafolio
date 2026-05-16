@@ -39,7 +39,9 @@ Recientemente ha profundizado en DevOps y arquitectura de Microservicios, implem
 2. Implementar seguridad de red avanzada (Reverse Proxies, SSL, DNS Filtering).
 3. Observabilidad total (monitoreo en tiempo real con Grafana/Prometheus).
 
-Integra esta solidez técnica con **Microsoft Power Platform** para eliminar fricción operativa y entregar valor medible.
+Integra esta solidez técnica con **Microsoft Power Platform** y **Power BI** para eliminar fricción operativa y entregar valor medible.
+
+En su trabajo más reciente ha consolidado un perfil **Data Engineering + Business Intelligence**: modelado dimensional, SQL nativo sobre SAP HANA, réplica de lógica de transacciones SAP ECC, modelos tabulares versionados (Power BI Project / .pbip / TMDL), DAX, Power Query (M), y diseño de motores de reglas dimensionales para reportería financiera auditable contra ERP.
 
 ## STACK TECNOLÓGICO COMPLETO
 
@@ -56,7 +58,7 @@ Angular, Ionic, React, React Native, WordPress, HTML5, CSS3, TypeScript/JavaScri
 Ionic (4 apps publicadas en tiendas), React Native, Capacitor (plugins nativos)
 
 ### Bases de Datos
-MySQL (Modelado, Diseño, Optimización de consultas, vistas), SQL Server (Admin & Dev), Firebase, Optimización de consultas espaciales
+MySQL (Modelado, Diseño, Optimización de consultas, vistas), SQL Server (Admin & Dev), **SAP HANA** (SQL nativo, replicación de lógica SAP ECC desde módulos FI/CO/MM/SD/PP), Firebase, Optimización de consultas espaciales
 
 ### CMS & Plataformas
 WordPress (creación de plugins y temas personalizados, dominio del core más allá de herramientas estándar), Moodle
@@ -68,7 +70,7 @@ Docker & Docker Compose, Portainer, Nginx Proxy Manager, Linux (Ubuntu Server he
 Grafana, Prometheus, Node Exporter, Netdata, Stack TIG (Telegraf, Influx, Grafana)
 
 ### BPA, Automatización & Business Intelligence
-Power Platform completo: Power Automate, Power Apps (Canvas Apps), Power BI, SharePoint, MS Forms. **n8n** (self-hosted) para automatización de workflows, integración de APIs y orquestación de procesos sin código.
+Power Platform completo: Power Automate, Power Apps (Canvas Apps), Power BI (incl. **Power BI Project / .pbip / TMDL** para versionado en Git, **DAX** para medidas, **Power Query (M)** para transformaciones), SharePoint, MS Forms. Modelado dimensional y construcción de modelos tabulares de gran escala (motores de reglas con miles de combinaciones). **n8n** (self-hosted) para automatización de workflows, integración de APIs y orquestación de procesos sin código.
 
 ### Cloud & Hosting
 AWS (S3, EC2, RDS), Google Cloud, Firebase, Dreamhost
@@ -185,17 +187,19 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 
 ## PROYECTOS DESTACADOS
 
-1. **De One** — Ecosistema completo de delivery: API Laravel, 4 apps Ionic (Cliente/Socio/Repartidor/Cocina), paneles Angular, geolocalización en tiempo real, AWS.
+1. **MOP - Modelo de Margen Operativo (Grupo Estrella)** — Modelo de Business Intelligence para los segmentos de Cemento, Concreto, Agregados y Clínker en industria cementera. SQL nativo sobre SAP HANA replicando lógica SAP ECC (transacciones MB51, KSB1, VF05, FBL5N, COOIS de los módulos FI/CO/MM/SD/PP), modelo tabular versionado en Power BI Project (.pbip/TMDL), motor de reglas dimensional de más de 2,900 combinaciones, detección y corrección de $8M+ anuales en duplicaciones de costo, reportería financiera mensual auditable contra el ERP.
 
-2. **Progracademy** — Plataforma e-learning Angular + Laravel con integración Microsoft 365/Graph API, Power BI embebido, web scraping con Goutte/Guzzle.
+2. **De One** — Ecosistema completo de delivery: API Laravel, 4 apps Ionic (Cliente/Socio/Repartidor/Cocina), paneles Angular, geolocalización en tiempo real, AWS.
 
-3. **Squuad (Florida Global University + American Elite School + Universidad Tecnológica Baden Powell)** — Sistema académico replicado para 3 universidades. Motor de inscripción automatizado con "matriz de proyección". Laravel + WordPress + Moodle con sincronización en tiempo real.
+3. **Progracademy** — Plataforma e-learning Angular + Laravel con integración Microsoft 365/Graph API, Power BI embebido, web scraping con Goutte/Guzzle.
 
-4. **Faim Lab** — Desarrollo y administración de 5+ plataformas digitales para clientes en USA y Latinoamérica.
+4. **Squuad (Florida Global University + American Elite School + Universidad Tecnológica Baden Powell)** — Sistema académico replicado para 3 universidades. Motor de inscripción automatizado con "matriz de proyección". Laravel + WordPress + Moodle con sincronización en tiempo real.
 
-5. **Hablax** — App móvil de recargas internacionales con React Native, Android + iOS, con pasarelas de pago y push notifications.
+5. **Faim Lab** — Desarrollo y administración de 5+ plataformas digitales para clientes en USA y Latinoamérica.
 
-6. **Homelab (Mac Mini → Servidor Enterprise)** — Convirtió una Mac Mini 2014 olvidada en un servidor Enterprise completo. Arquitectura:
+6. **Hablax** — App móvil de recargas internacionales con React Native, Android + iOS, con pasarelas de pago y push notifications.
+
+7. **Homelab (Mac Mini → Servidor Enterprise)** — Convirtió una Mac Mini 2014 olvidada en un servidor Enterprise completo. Arquitectura:
    - Core: Ubuntu Server 24.04 LTS headless
    - Red: AdGuard Home (DNS filtering) + Nginx Proxy Manager (SSL + dominios)
    - Gestión: Portainer
@@ -213,7 +217,8 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 ## FORTALEZAS CLAVE
 
 - Diseña ecosistemas digitales completos (backend + frontend + mobile + infraestructura)
-- Conecta plataformas dispares: Laravel ↔ WordPress ↔ Moodle ↔ Microsoft 365 ↔ Power BI
+- Conecta plataformas dispares: Laravel ↔ WordPress ↔ Moodle ↔ Microsoft 365 ↔ SAP HANA ↔ Power BI
+- **Data Engineering & BI:** modelado dimensional sobre SAP HANA, modelos tabulares en Power BI Project (.pbip/TMDL), DAX, Power Query (M), réplica de lógica SAP ECC en SQL nativo, detección de impactos financieros multimillonarios
 - Experiencia como único desarrollador manejando proyectos end-to-end
 - DevOps real: servidores Linux contenerizados, CI/CD, VPN, monitoring, backups automatizados
 - 4 apps móviles publicadas en Google Play y App Store
