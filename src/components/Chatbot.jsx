@@ -1,6 +1,24 @@
 import { useState, useRef, useEffect } from 'react'
 import { useLang } from '../i18n/LanguageContext'
 
+function formatMessage(text) {
+  if (!text) return null
+  const regex = /(\*\*([^*\n]+)\*\*)|(\*([^*\n]+)\*)|(`([^`\n]+)`)/g
+  const parts = []
+  let lastIndex = 0
+  let match
+  let key = 0
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) parts.push(text.slice(lastIndex, match.index))
+    if (match[1]) parts.push(<strong key={key++} className="font-semibold">{match[2]}</strong>)
+    else if (match[3]) parts.push(<em key={key++}>{match[4]}</em>)
+    else if (match[5]) parts.push(<code key={key++} className="px-1 py-0.5 rounded bg-bg-dark text-primary text-[0.85em] font-mono">{match[6]}</code>)
+    lastIndex = regex.lastIndex
+  }
+  if (lastIndex < text.length) parts.push(text.slice(lastIndex))
+  return parts
+}
+
 export default function Chatbot() {
   const { t } = useLang()
   const [open, setOpen] = useState(false)
@@ -155,7 +173,7 @@ export default function Chatbot() {
                       : 'bg-bg-card-hover text-text-primary border border-border rounded-bl-md'
                   }`}
                 >
-                  {msg.content}
+                  {msg.role === 'assistant' ? formatMessage(msg.content) : msg.content}
                   {msg.role === 'assistant' && i === messages.length - 1 && streaming && (
                     <span className="inline-block w-1.5 h-4 bg-primary/70 ml-0.5 animate-pulse rounded-sm align-text-bottom" />
                   )}
