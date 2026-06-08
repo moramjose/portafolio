@@ -33,10 +33,10 @@ const categories = [
   {
     key: 'dataBi',
     items: [
-      { name: 'Power BI', icon: 'https://cdn.simpleicons.org/powerbi/F2C811' },
-      { name: 'Power Automate', icon: 'https://cdn.simpleicons.org/powerautomate/0066FF' },
-      { name: 'Power Apps', icon: 'https://cdn.simpleicons.org/powerapps/742774' },
-      { name: 'SharePoint', icon: 'https://cdn.simpleicons.org/microsoftsharepoint/0078D4' },
+      { name: 'Power BI', icon: '/icons/powerbi.svg' },
+      { name: 'Power Automate', icon: '/icons/powerautomate.svg' },
+      { name: 'Power Apps', icon: '/icons/powerapps.svg' },
+      { name: 'SharePoint', icon: '/icons/sharepoint.svg' },
     ],
   },
   {

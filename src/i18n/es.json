@@ -3,6 +3,7 @@
     "about": "Sobre mí",
     "experience": "Experiencia",
     "techStack": "Tech Stack",
+    "certifications": "Certificaciones",
     "projects": "Proyectos",
     "contact": "Contacto"
   },
@@ -50,61 +51,85 @@
         "company": "Faim Lab",
         "role": "Desarrollo Web y Webmastering",
         "location": "Florida, USA",
-        "description": "Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica. Sitios corporativos, e-commerce con WooCommerce, portales de contenido y landing pages optimizadas para SEO y conversión."
+        "description": "Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica. Construyo sitios corporativos, e-commerce con WooCommerce, portales de contenido y landing pages optimizadas para SEO y conversión, abarcando todo el ciclo: arquitectura, infraestructura, despliegue y mantenimiento webmaster."
       },
       {
-        "period": "2026 - 2026",
+        "period": "Feb 2026 - May 2026",
         "company": "Grupo Estrella",
         "role": "Ingeniero de Datos & BI",
         "location": "República Dominicana",
         "description": "Diseñé e implementé el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker, replicando en SQL nativo sobre SAP HANA la lógica de transacciones SAP ECC (MB51, KSB1, VF05, FBL5N, COOIS) de los módulos FI/CO/MM/SD/PP. Construí 6 queries productivos, 11 stages en Power Query (M) y un modelo tabular versionado en Power BI Project (.pbip/TMDL) con medidas DAX y un motor de reglas dimensional de más de 2,900 combinaciones. Detecté y corregí duplicaciones de costos por más de $8M anuales, habilitando reportería financiera mensual auditable contra el ERP."
       },
       {
-        "period": "2026 - 2026",
+        "period": "Feb 2026 - May 2026",
         "company": "Hablax INC.",
         "role": "Desarrollador de Aplicaciones Móviles",
         "location": "Delaware, USA",
-        "description": "Mantenimiento y evolución de la app móvil de recargas internacionales (React Native, iOS y Android). Integré el procesador de pagos NMI, corregí defectos heredados de desarrollos previos, desarrollé nuevas funcionalidades y gestioné las publicaciones en App Store y Google Play. Soporte directo en producción para usuarios de Latinoamérica y USA."
+        "description": "Mantenimiento y evolución de la app móvil de recargas internacionales (React Native, iOS y Android). Integré el procesador de pagos NMI, corregí defectos heredados de ciclos de desarrollo previos, desarrollé nuevas funcionalidades y gestioné todo el proceso de publicación en App Store y Google Play (revisiones, certificados, releases). Soporte directo en producción para usuarios de Latinoamérica y USA."
       },
       {
         "period": "2024 - 2026",
         "company": "Squuad",
         "role": "Desarrollador Full Stack",
         "location": "Florida, USA",
-        "description": "Repliqué y escalé la arquitectura de software completa (Laravel/WordPress/Moodle) para el lanzamiento de American Elite School, Florida Global University y Universidad Tecnológica Baden Powell. Automaticé inscripciones con un motor de reglas de negocio y sincronización de bases de datos MySQL en tiempo real."
+        "description": "Repliqué y escalé la arquitectura de software completa (Laravel/WordPress/Moodle) para el lanzamiento de American Elite School, Florida Global University y Universidad Tecnológica Baden Powell. Reconfiguré el motor de automatización de inscripciones y la lógica de sincronización de bases de datos MySQL para que cada universidad operara de forma independiente y concurrente. Personalicé la capa de presentación en WordPress con un conjunto de plugins y temas hijos a medida, demostrando capacidad de crear soluciones replicables que permiten lanzar nuevas unidades de negocio de forma ágil sobre una arquitectura probada."
       },
       {
         "period": "2025 - 2026",
         "company": "Grupo Estrella",
         "role": "Desarrollador de Automatización",
         "location": "República Dominicana",
-        "description": "Digitalicé y optimicé los procesos de gestión de personal utilizando el stack completo de Microsoft. Diseñé soluciones end-to-end con Power Apps, Power Automate, SharePoint y SQL Server, eliminando cuellos de botella críticos y habilitando reportes en tiempo real con Power BI."
+        "description": "Digitalicé los procesos de gestión de personal (capacitación, evaluación, asistencia) usando el stack completo de Microsoft Power Platform. Diseñé la captura de datos end-to-end con MS Forms y Power Apps (Canvas Apps) como interfaz de campo y oficina, orquesté la lógica de negocio con Power Automate (lectura, validación, transformación) distribuyendo automáticamente a Listas de SharePoint para ingesta rápida y a SQL Server como base centralizada de reporteo. Implementé la capa de BI conectando Power BI a SQL Server, eliminando cuellos de botella manuales y habilitando reportes dinámicos en tiempo real para la dirección."
       },
       {
         "period": "2022 - 2023",
         "company": "Progracademy",
         "role": "Desarrollador Full Stack",
         "location": "Madrid, España",
-        "description": "Construí y escalé la plataforma de e-learning. Integré Microsoft 365 vía Graph API para automatizar clases en Teams. Implementé Business Intelligence con Power BI y desarrollé módulos de Web Scraping para ingesta automática de datos."
+        "description": "Construí y escalé la plataforma de e-learning (Angular + Laravel), abarcando desde la arquitectura de base de datos hasta las integraciones con APIs de terceros. Diseñé y mantuve el panel administrativo completo y optimicé el backend con vistas (views) SQL como capa de abstracción para consultas complejas, mejorando significativamente el rendimiento de los reportes. Lideré la integración con Microsoft 365 vía Graph API para automatizar la programación de clases en Teams y la gestión de invitaciones a estudiantes. Implementé Business Intelligence exponiendo APIs Laravel seguras para embeber dashboards en Power BI, y desarrollé módulos de Web Scraping con Goutte y Guzzle para la ingesta automática de contenido."
       },
       {
         "period": "2019 - 2025",
         "company": "De One",
         "role": "Desarrollador Full Stack",
         "location": "Venezuela",
-        "description": "Como único desarrollador, diseñé el ecosistema completo de delivery: API RESTful en Laravel, 4 apps móviles en Ionic, paneles web en Angular, geolocalización en tiempo real y despliegue completo en AWS."
+        "description": "Como único Desarrollador Full Stack, asumí la propiedad total del ecosistema de delivery \"De One\", desde la arquitectura hasta el despliegue en producción. Diseñé el stack completo: una API RESTful en Laravel como core, 4 aplicaciones móviles en Ionic (Cliente, Socio, Repartidor, Cocina) y paneles web en Angular (Gestión de Tiendas y Admin). Implementé el módulo de geolocalización en tiempo real con captura GPS de alta frecuencia desde la app del repartidor, procesamiento en el backend y visualización en mapas para clientes y socios. Desplegué y administré toda la infraestructura en AWS, optimizando EC2 para el rendimiento de la API y configurando S3 para la distribución de contenido estático. Gestioné la publicación de las 4 apps en Google Play y App Store, y coordiné personal de apoyo asumiendo la gestión administrativa 360° del proyecto."
       },
       {
         "period": "2021 - 2022",
         "company": "Mandaditos CR",
         "role": "Desarrollador Full Stack",
         "location": "Costa Rica",
-        "description": "Implementé el módulo de seguimiento en tiempo real con mapas personalizados, integración de hardware nativo (Cámara, GPS) y optimización de consultas SQL espaciales."
+        "description": "Colaboré en un equipo de alto rendimiento manteniendo y escalando una plataforma de operaciones críticas — app móvil en Ionic/Angular respaldada por backend con MySQL. Lideré la implementación del módulo de seguimiento en tiempo real, diseñando interfaces de mapas personalizados para monitorear repartidores y desarrollando los endpoints REST necesarios para procesar y servir datos de geolocalización eficientemente. Integré hardware nativo (Cámara, GPS) con plugins de Capacitor permitiendo a los repartidores capturar pruebas de entrega (PoD) y reportar ubicación precisa. Diagnostiqué y resolví cuellos de botella en toda la pila optimizando consultas SQL espaciales en MySQL y refactorizando componentes Angular."
+      },
+      {
+        "period": "2021 - 2022",
+        "company": "PYKRS",
+        "role": "Desarrollador Front-end",
+        "location": "Venezuela (Remoto)",
+        "description": "Colaboré en la evolución de PYKRS, un producto de IoT que permite gestionar la temperatura de prendas calefactables vía smartphone. Refactoricé la arquitectura de estilos (CSS/SCSS) de las pantallas principales con un diseño más modular para mejorar la experiencia de usuario en la interacción con el hardware. Fui responsable de la gestión de dependencias del proyecto, planificando y ejecutando la actualización de librerías críticas para mitigar vulnerabilidades. Aseguré la estabilidad general de la plataforma con mantenimiento proactivo y corrección de errores."
+      },
+      {
+        "period": "2021 - 2022",
+        "company": "SECCO Service",
+        "role": "Desarrollador Front-end",
+        "location": "Chile",
+        "description": "Asumí el mantenimiento y evolución de una aplicación móvil híbrida en Ionic, diagnosticando y resolviendo cuellos de botella de rendimiento. Refactoricé módulos críticos — flujo de autenticación (Login), perfil de usuario (Mi Cuenta) e interfaz de inicio — mejorando UX y mantenibilidad del código. Ejecuté una actualización integral del stack de Ionic, mitigando vulnerabilidades y asegurando compatibilidad a largo plazo. Implementé mejoras en los procesos de carga y gestión de estado, logrando una navegación más fluida y tiempos de respuesta reducidos."
       }
     ]
   },
-  "projects": {
+  "certifications": {
     "sectionNumber": "04.",
+    "title": "Certificaciones",
+    "verify": "Ver credencial",
+    "items": {
+      "ccna": "CCNA: Introducción a las redes",
+      "netCoreIonic": "Fullstack con .NET Core e Ionic",
+      "laravelAngular": "Ecommerce Fullstack con Laravel y Angular"
+    }
+  },
+  "projects": {
+    "sectionNumber": "05.",
     "title": "Proyectos",
     "linkLabel": "enlace",
     "linksLabel": "enlaces",
@@ -119,7 +144,7 @@
     }
   },
   "contact": {
-    "sectionNumber": "05.",
+    "sectionNumber": "06.",
     "title": "Contacto",
     "description": "Estoy abierto a nuevas oportunidades y colaboraciones. Si tienes un proyecto en mente o simplemente quieres conectar, no dudes en escribirme.",
     "namePlaceholder": "Tu nombre",

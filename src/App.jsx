@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Experience from './components/Experience'
 import TechStack from './components/TechStack'
+import Certifications from './components/Certifications'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Chatbot from './components/Chatbot'
@@ -12,6 +13,7 @@ const navLinks = [
   { label: 'about', href: '#sobre-mi' },
   { label: 'experience', href: '#experiencia' },
   { label: 'techStack', href: '#tech-stack' },
+  { label: 'certifications', href: '#certificaciones' },
   { label: 'projects', href: '#proyectos' },
   { label: 'contact', href: '#contacto' },
 ]
@@ -28,6 +30,7 @@ function App() {
         <About />
         <Experience />
         <TechStack />
+        <Certifications />
         <Projects />
         <Contact />
       </main>

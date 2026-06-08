@@ -10,6 +10,7 @@ export default function Navbar() {
     { label: t.nav.about, href: '#sobre-mi' },
     { label: t.nav.experience, href: '#experiencia' },
     { label: t.nav.techStack, href: '#tech-stack' },
+    { label: t.nav.certifications, href: '#certificaciones' },
     { label: t.nav.projects, href: '#proyectos' },
     { label: t.nav.contact, href: '#contacto' },
   ]

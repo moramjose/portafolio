@@ -3,6 +3,7 @@
     "about": "About",
     "experience": "Experience",
     "techStack": "Tech Stack",
+    "certifications": "Certifications",
     "projects": "Projects",
     "contact": "Contact"
   },
@@ -50,61 +51,85 @@
         "company": "Faim Lab",
         "role": "Web Development & Webmastering",
         "location": "Florida, USA",
-        "description": "Development, deployment, and administration of 5+ websites for clients in the US and Latin America. Corporate sites, WooCommerce e-commerce, content portals, and landing pages optimized for SEO and conversion."
+        "description": "Development, deployment, and administration of 5+ websites for clients in the US and Latin America. I build corporate sites, WooCommerce e-commerce, content portals, and landing pages optimized for SEO and conversion, covering the full cycle: architecture, infrastructure, deployment, and webmaster maintenance."
       },
       {
-        "period": "2026 - 2026",
+        "period": "Feb 2026 - May 2026",
         "company": "Grupo Estrella",
         "role": "Data & BI Engineer",
         "location": "Dominican Republic",
         "description": "Designed and implemented the MOP model (Product Operating Margin) for the Cement, Concrete, Aggregates, and Clinker segments, replicating SAP ECC transaction logic (MB51, KSB1, VF05, FBL5N, COOIS) from the FI/CO/MM/SD/PP modules in native SQL on SAP HANA. Built 6 production queries, 11 Power Query (M) stages, and a tabular model versioned as a Power BI Project (.pbip/TMDL) with DAX measures and a dimensional rules engine of 2,900+ combinations. Detected and fixed cost duplications worth $8M+ per year, enabling monthly financial reporting fully auditable against the ERP."
       },
       {
-        "period": "2026 - 2026",
+        "period": "Feb 2026 - May 2026",
         "company": "Hablax INC.",
         "role": "Mobile Application Developer",
         "location": "Delaware, USA",
-        "description": "Maintenance and evolution of the international mobile top-up app (React Native, iOS and Android). Integrated the NMI payment processor, fixed legacy defects from prior development cycles, shipped new features, and managed releases on the App Store and Google Play. Direct production support for users in Latin America and the US."
+        "description": "Maintenance and evolution of the international mobile top-up app (React Native, iOS and Android). Integrated the NMI payment processor, fixed legacy defects from prior development cycles, shipped new features, and managed the full release process on the App Store and Google Play (reviews, certificates, releases). Direct production support for users in Latin America and the US."
       },
       {
         "period": "2024 - 2026",
         "company": "Squuad",
         "role": "Full Stack Developer",
         "location": "Florida, USA",
-        "description": "Replicated and scaled the complete software architecture (Laravel/WordPress/Moodle) for the launch of American Elite School, Florida Global University, and Universidad Tecnológica Baden Powell. Automated enrollments with a business rules engine and real-time MySQL database synchronization."
+        "description": "Replicated and scaled the complete software architecture (Laravel/WordPress/Moodle) for the launch of American Elite School, Florida Global University, and Universidad Tecnológica Baden Powell. Reconfigured the enrollment automation engine and the MySQL database synchronization logic so each university could operate independently and concurrently. Customized the WordPress presentation layer with a set of custom plugins and child themes, demonstrating the ability to build replicable solutions that allow new business units to launch quickly on top of a proven architecture."
       },
       {
         "period": "2025 - 2026",
         "company": "Grupo Estrella",
         "role": "Automation Developer",
         "location": "Dominican Republic",
-        "description": "Digitized and optimized personnel management processes using the complete Microsoft stack. Designed end-to-end solutions with Power Apps, Power Automate, SharePoint, and SQL Server, eliminating critical bottlenecks and enabling real-time reporting with Power BI."
+        "description": "Digitized personnel management processes (training, evaluation, attendance) using the full Microsoft Power Platform stack. Designed end-to-end data capture with MS Forms and Power Apps (Canvas Apps) as the field and office UI, orchestrated business logic with Power Automate (read, validate, transform) distributing automatically to SharePoint Lists for fast ingestion and to SQL Server as the centralized reporting database. Implemented the BI layer connecting Power BI to SQL Server, eliminating manual bottlenecks and enabling real-time dynamic reporting for leadership."
       },
       {
         "period": "2022 - 2023",
         "company": "Progracademy",
         "role": "Full Stack Developer",
         "location": "Madrid, Spain",
-        "description": "Built and scaled the e-learning platform. Integrated Microsoft 365 via Graph API to automate Teams classes. Implemented Business Intelligence with Power BI and developed Web Scraping modules for automatic data ingestion."
+        "description": "Built and scaled the e-learning platform (Angular + Laravel), covering everything from database architecture to third-party API integrations. Designed and maintained the full admin panel and optimized the backend with SQL views as an abstraction layer for complex queries, significantly improving reporting performance. Led the Microsoft 365 integration via Graph API to automate class scheduling in Teams and student invitations. Implemented Business Intelligence by exposing secure Laravel APIs to embed dashboards in Power BI, and developed Web Scraping modules with Goutte and Guzzle for automatic content ingestion."
       },
       {
         "period": "2019 - 2025",
         "company": "De One",
         "role": "Full Stack Developer",
         "location": "Venezuela",
-        "description": "As the sole developer, designed the complete delivery ecosystem: RESTful API in Laravel, 4 mobile apps in Ionic, web panels in Angular, real-time geolocation, and full deployment on AWS."
+        "description": "As the sole Full Stack Developer, I took full ownership of the \"De One\" delivery ecosystem, from architecture to production deployment. Designed the complete stack: a Laravel RESTful API as the core, 4 mobile apps in Ionic (Customer, Partner, Driver, Kitchen), and Angular web panels (Store Management and Admin). Implemented the real-time geolocation module with high-frequency GPS capture from the driver app, backend processing, and map visualization for customers and partners. Deployed and managed the entire AWS infrastructure, tuning EC2 for API performance and configuring S3 for static content delivery. Managed the publication of all 4 apps on Google Play and App Store, and coordinated support personnel taking on 360° administrative management of the project."
       },
       {
         "period": "2021 - 2022",
         "company": "Mandaditos CR",
         "role": "Full Stack Developer",
         "location": "Costa Rica",
-        "description": "Implemented the real-time tracking module with custom maps, native hardware integration (Camera, GPS), and spatial SQL query optimization."
+        "description": "Collaborated in a high-performance team maintaining and scaling a critical operations platform — Ionic/Angular mobile app backed by a MySQL backend. Led the implementation of the real-time tracking module, designing custom map interfaces to monitor drivers and developing the REST endpoints needed to process and serve geolocation data efficiently. Integrated native hardware (Camera, GPS) with Capacitor plugins, enabling drivers to capture proof of delivery (PoD) and report precise location. Diagnosed and resolved bottlenecks across the stack, optimizing spatial SQL queries in MySQL and refactoring Angular components."
+      },
+      {
+        "period": "2021 - 2022",
+        "company": "PYKRS",
+        "role": "Front-end Developer",
+        "location": "Venezuela (Remote)",
+        "description": "Collaborated on the evolution of PYKRS, an IoT product that lets users manage the temperature of heated garments via smartphone. Refactored the CSS/SCSS style architecture of the main screens with a more modular design to improve the user experience when interacting with the hardware. Owned project dependency management, planning and executing critical library updates to mitigate vulnerabilities. Ensured overall platform stability through proactive maintenance and bug fixing."
+      },
+      {
+        "period": "2021 - 2022",
+        "company": "SECCO Service",
+        "role": "Front-end Developer",
+        "location": "Chile",
+        "description": "Took over the maintenance and evolution of an existing Ionic hybrid mobile app, diagnosing and resolving performance bottlenecks. Refactored critical modules — authentication flow (Login), user profile (My Account), and home interface — improving UX and code maintainability. Executed a full update of the Ionic stack, mitigating vulnerabilities and ensuring long-term compatibility. Implemented improvements in loading processes and application state management, achieving smoother navigation and reduced response times."
       }
     ]
   },
-  "projects": {
+  "certifications": {
     "sectionNumber": "04.",
+    "title": "Certifications",
+    "verify": "View credential",
+    "items": {
+      "ccna": "CCNA: Introduction to Networks",
+      "netCoreIonic": "Fullstack with .NET Core and Ionic",
+      "laravelAngular": "Fullstack Ecommerce with Laravel and Angular"
+    }
+  },
+  "projects": {
+    "sectionNumber": "05.",
     "title": "Projects",
     "linkLabel": "link",
     "linksLabel": "links",
@@ -119,7 +144,7 @@
     }
   },
   "contact": {
-    "sectionNumber": "05.",
+    "sectionNumber": "06.",
     "title": "Contact",
     "description": "I'm open to new opportunities and collaborations. If you have a project in mind or just want to connect, don't hesitate to reach out.",
     "namePlaceholder": "Your name",

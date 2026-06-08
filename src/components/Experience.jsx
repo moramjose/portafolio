@@ -10,6 +10,8 @@ const experienceMeta = [
   { tags: ['Angular', 'Laravel', 'MS Graph API', 'Power BI'], projectId: 'progracademy' },
   { tags: ['Laravel', 'Ionic', 'Angular', 'AWS', 'MySQL'], projectId: 'deone' },
   { tags: ['Ionic', 'Angular', 'MySQL', 'Capacitor'], projectId: null },
+  { tags: ['Ionic', 'IoT', 'SCSS', 'Frontend'], projectId: null },
+  { tags: ['Ionic', 'Angular', 'Hybrid Mobile', 'Frontend'], projectId: null },
 ]
 
 export default function Experience() {

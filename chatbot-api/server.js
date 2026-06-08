@@ -95,7 +95,7 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Sitios corporativos, e-commerce con WooCommerce, portales de contenido
 - Landing pages optimizadas para SEO y conversión
 
-### Grupo Estrella — Ingeniero de Datos & BI (2026)
+### Grupo Estrella — Ingeniero de Datos & BI (Feb 2026 - May 2026)
 📍 República Dominicana
 - Diseñó e implementó el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker
 - Replicó en SQL nativo sobre SAP HANA la lógica de transacciones SAP ECC (MB51, KSB1, VF05, FBL5N, COOIS) de los módulos FI/CO/MM/SD/PP
@@ -103,7 +103,7 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Implementó medidas DAX y un motor de reglas dimensional de más de 2,900 combinaciones
 - Detectó y corrigió duplicaciones de costos por más de $8M anuales, habilitando reportería financiera mensual auditable contra el ERP
 
-### Hablax INC. — Desarrollador de Aplicaciones Móviles (2026)
+### Hablax INC. — Desarrollador de Aplicaciones Móviles (Feb 2026 - May 2026)
 📍 Delaware, USA
 - Mantenimiento y evolución de la app móvil de recargas internacionales con React Native (iOS y Android)
 - Integración del procesador de pagos NMI
@@ -161,14 +161,16 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Optimización de consultas SQL espaciales complejas (joins espaciales en MySQL)
 - Refactorización de componentes Angular para UX fluida incluso con red intermitente
 
-### Secco Service — Desarrollador Remoto (2021 - 2022)
+### SECCO Service — Desarrollador Front-end (2021 - 2022)
+📍 Chile
 - Mantenimiento y evolución de app móvil híbrida en Ionic
 - Diagnóstico y resolución de cuellos de botella de rendimiento
 - Refactorización de módulos críticos: flujo de autenticación (Login), gestión de perfil (Mi Cuenta), interfaz de inicio
 - Actualización integral de librerías y dependencias del stack Ionic
 - Mejoras en procesos de carga y gestión de estado
 
-### PYKRS — Desarrollador Remoto (2021 - 2022)
+### PYKRS — Desarrollador Front-end (2021 - 2022)
+📍 Venezuela (Remoto)
 - App de IoT: gestión de temperatura de prendas calefactables vía smartphone
 - Optimización del frontend: refactorización de arquitectura de estilos (CSS/SCSS)
 - Diseño modular y mejora de UX en interacción con dispositivo
@@ -182,8 +184,9 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 
 ## CERTIFICADOS
 
-- Udemy — E-commerce Fullstack con Laravel y Angular
-- Udemy — .NET Core & Ionic
+- **Cisco Networking Academy — CCNA: Introducción a las redes** (2026) — Credencial: https://www.credly.com/badges/f66b7a98-2fae-4358-9f7d-2115a83e6bd9/public_url
+- **Udemy — Fullstack con .NET Core e Ionic** (2024) — Credencial: https://www.udemy.com/certificate/UC-a0dd1a6b-36ae-44a3-82f9-76ff6b8177e8/
+- **Udemy — Ecommerce Fullstack con Laravel y Angular** (2024) — Credencial: https://www.udemy.com/certificate/UC-9243a0f4-df98-40e7-b5db-9084c52c66b1/
 
 ## PROYECTOS DESTACADOS
 
