@@ -57,7 +57,7 @@
         "period": "Ene 2026 - Presente",
         "company": "Faim Lab",
         "role": "Desarrollo Web y Webmastering",
-        "location": "Florida, USA",
+        "location": "Florida, USA (Remoto)",
         "description": "Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica. Construyo sitios corporativos, e-commerce con WooCommerce, portales de contenido y landing pages optimizadas para SEO y conversión, abarcando todo el ciclo: arquitectura, infraestructura, despliegue y mantenimiento webmaster. Construí además Enséñame Ya, un marketplace de mentorías 1:1 en vivo entre alumnos y tutores, con Next.js y React sobre Supabase (base de datos, autenticación y almacenamiento) y desplegado en Vercel."
       },
       {
@@ -71,7 +71,7 @@
         "period": "Feb 2026 - May 2026",
         "company": "Hablax INC.",
         "role": "Desarrollador de Aplicaciones Móviles",
-        "location": "Delaware, USA",
+        "location": "Delaware, USA (Remoto)",
         "description": "Mantenimiento y evolución de la app móvil de recargas internacionales (React Native, iOS y Android). Integré el procesador de pagos NMI, corregí defectos heredados de ciclos de desarrollo previos, desarrollé nuevas funcionalidades y gestioné todo el proceso de publicación en App Store y Google Play (revisiones, certificados, releases). Soporte directo en producción para usuarios de Latinoamérica y USA."
       },
       {
@@ -85,14 +85,14 @@
         "period": "Nov 2022 - Dic 2023",
         "company": "Progracademy",
         "role": "Desarrollador Full Stack",
-        "location": "Madrid, España",
+        "location": "Madrid, España (Remoto)",
         "description": "Construí y escalé la plataforma de e-learning (Angular + Laravel), abarcando desde la arquitectura de base de datos hasta las integraciones con APIs de terceros. Diseñé y mantuve el panel administrativo completo y optimicé el backend con vistas (views) SQL como capa de abstracción para consultas complejas, mejorando significativamente el rendimiento de los reportes. Lideré la integración con Microsoft 365 vía Graph API para automatizar la programación de clases en Teams y la gestión de invitaciones a estudiantes. Implementé Business Intelligence exponiendo APIs Laravel seguras para embeber dashboards en Power BI, y desarrollé módulos de Web Scraping con Goutte y Guzzle para la ingesta automática de contenido."
       },
       {
         "period": "Ene 2021 - Ene 2022",
         "company": "Mandaditos CR",
         "role": "Desarrollador Full Stack",
-        "location": "Costa Rica",
+        "location": "Costa Rica (Remoto)",
         "description": "Colaboré en un equipo de alto rendimiento manteniendo y escalando una plataforma de operaciones críticas — app móvil en Ionic/Angular respaldada por backend con MySQL. Lideré la implementación del módulo de seguimiento en tiempo real, diseñando interfaces de mapas personalizados para monitorear repartidores y desarrollando los endpoints REST necesarios para procesar y servir datos de geolocalización eficientemente. Integré hardware nativo (Cámara, GPS) con plugins de Capacitor permitiendo a los repartidores capturar pruebas de entrega (PoD) y reportar ubicación precisa. Diagnostiqué y resolví cuellos de botella en toda la pila optimizando consultas SQL espaciales en MySQL y refactorizando componentes Angular."
       },
       {
@@ -106,14 +106,14 @@
         "period": "Ene 2021 - Ene 2022",
         "company": "SECCO Service",
         "role": "Desarrollador Front-end",
-        "location": "Chile",
+        "location": "Chile (Remoto)",
         "description": "Asumí el mantenimiento y evolución de una aplicación móvil híbrida en Ionic, diagnosticando y resolviendo cuellos de botella de rendimiento. Refactoricé módulos críticos — flujo de autenticación (Login), perfil de usuario (Mi Cuenta) e interfaz de inicio — mejorando UX y mantenibilidad del código. Ejecuté una actualización integral del stack de Ionic, mitigando vulnerabilidades y asegurando compatibilidad a largo plazo. Implementé mejoras en los procesos de carga y gestión de estado, logrando una navegación más fluida y tiempos de respuesta reducidos."
       },
       {
         "period": "Ene 2020 - Dic 2025",
         "company": "De One",
         "role": "Desarrollador Full Stack",
-        "location": "Venezuela",
+        "location": "Venezuela (Remoto)",
         "description": "Como único Desarrollador Full Stack, asumí la propiedad total del ecosistema de delivery \"De One\", desde la arquitectura hasta el despliegue en producción. Diseñé el stack completo: una API RESTful en Laravel como core, 4 aplicaciones móviles en Ionic (Cliente, Socio, Repartidor, Cocina) y paneles web en Angular (Gestión de Tiendas y Admin). Implementé el módulo de geolocalización en tiempo real con captura GPS de alta frecuencia desde la app del repartidor, procesamiento en el backend y visualización en mapas para clientes y socios. Desplegué y administré toda la infraestructura en AWS, optimizando EC2 para el rendimiento de la API y configurando S3 para la distribución de contenido estático. Gestioné la publicación de las 4 apps en Google Play y App Store, y coordiné personal de apoyo asumiendo la gestión administrativa 360° del proyecto."
       }
     ]

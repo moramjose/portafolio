@@ -57,7 +57,7 @@
         "period": "Jan 2026 - Present",
         "company": "Faim Lab",
         "role": "Web Development & Webmastering",
-        "location": "Florida, USA",
+        "location": "Florida, USA (Remote)",
         "description": "Development, deployment, and administration of 5+ websites for clients in the US and Latin America. I build corporate sites, WooCommerce e-commerce, content portals, and landing pages optimized for SEO and conversion, covering the full cycle: architecture, infrastructure, deployment, and webmaster maintenance. Also built Enséñame Ya, a live 1:1 mentorship marketplace connecting students and tutors, with Next.js and React on Supabase (database, auth, and storage), deployed on Vercel."
       },
       {
@@ -71,7 +71,7 @@
         "period": "Feb 2026 - May 2026",
         "company": "Hablax INC.",
         "role": "Mobile Application Developer",
-        "location": "Delaware, USA",
+        "location": "Delaware, USA (Remote)",
         "description": "Maintenance and evolution of the international mobile top-up app (React Native, iOS and Android). Integrated the NMI payment processor, fixed legacy defects from prior development cycles, shipped new features, and managed the full release process on the App Store and Google Play (reviews, certificates, releases). Direct production support for users in Latin America and the US."
       },
       {
@@ -85,14 +85,14 @@
         "period": "Nov 2022 - Dec 2023",
         "company": "Progracademy",
         "role": "Full Stack Developer",
-        "location": "Madrid, Spain",
+        "location": "Madrid, Spain (Remote)",
         "description": "Built and scaled the e-learning platform (Angular + Laravel), covering everything from database architecture to third-party API integrations. Designed and maintained the full admin panel and optimized the backend with SQL views as an abstraction layer for complex queries, significantly improving reporting performance. Led the Microsoft 365 integration via Graph API to automate class scheduling in Teams and student invitations. Implemented Business Intelligence by exposing secure Laravel APIs to embed dashboards in Power BI, and developed Web Scraping modules with Goutte and Guzzle for automatic content ingestion."
       },
       {
         "period": "Jan 2021 - Jan 2022",
         "company": "Mandaditos CR",
         "role": "Full Stack Developer",
-        "location": "Costa Rica",
+        "location": "Costa Rica (Remote)",
         "description": "Collaborated in a high-performance team maintaining and scaling a critical operations platform — Ionic/Angular mobile app backed by a MySQL backend. Led the implementation of the real-time tracking module, designing custom map interfaces to monitor drivers and developing the REST endpoints needed to process and serve geolocation data efficiently. Integrated native hardware (Camera, GPS) with Capacitor plugins, enabling drivers to capture proof of delivery (PoD) and report precise location. Diagnosed and resolved bottlenecks across the stack, optimizing spatial SQL queries in MySQL and refactoring Angular components."
       },
       {
@@ -106,14 +106,14 @@
         "period": "Jan 2021 - Jan 2022",
         "company": "SECCO Service",
         "role": "Front-end Developer",
-        "location": "Chile",
+        "location": "Chile (Remote)",
         "description": "Took over the maintenance and evolution of an existing Ionic hybrid mobile app, diagnosing and resolving performance bottlenecks. Refactored critical modules — authentication flow (Login), user profile (My Account), and home interface — improving UX and code maintainability. Executed a full update of the Ionic stack, mitigating vulnerabilities and ensuring long-term compatibility. Implemented improvements in loading processes and application state management, achieving smoother navigation and reduced response times."
       },
       {
         "period": "Jan 2020 - Dec 2025",
         "company": "De One",
         "role": "Full Stack Developer",
-        "location": "Venezuela",
+        "location": "Venezuela (Remote)",
         "description": "As the sole Full Stack Developer, I took full ownership of the \"De One\" delivery ecosystem, from architecture to production deployment. Designed the complete stack: a Laravel RESTful API as the core, 4 mobile apps in Ionic (Customer, Partner, Driver, Kitchen), and Angular web panels (Store Management and Admin). Implemented the real-time geolocation module with high-frequency GPS capture from the driver app, backend processing, and map visualization for customers and partners. Deployed and managed the entire AWS infrastructure, tuning EC2 for API performance and configuring S3 for static content delivery. Managed the publication of all 4 apps on Google Play and App Store, and coordinated support personnel taking on 360° administrative management of the project."
       }
     ]

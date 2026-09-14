@@ -95,7 +95,7 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Enfoque en soluciones rápidas que desbloqueen la operación del día a día
 
 ### Faim Lab — Desarrollo Web y Webmastering (Ene 2026 - Presente)
-📍 Florida, USA
+📍 Florida, USA (Remoto)
 - Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica
 - Sitios corporativos, e-commerce con WooCommerce, portales de contenido
 - Landing pages optimizadas para SEO y conversión
@@ -118,7 +118,7 @@ Línea de automatización:
 - Implementó capa BI con Power BI conectado a SQL Server para reportes dinámicos en tiempo real
 
 ### Hablax INC. — Desarrollador de Aplicaciones Móviles (Feb 2026 - May 2026)
-📍 Delaware, USA
+📍 Delaware, USA (Remoto)
 - Mantenimiento y evolución de la app móvil de recargas internacionales con React Native (iOS y Android)
 - Integración del procesador de pagos NMI
 - Corrección de defectos heredados de desarrollos previos
@@ -142,7 +142,7 @@ Línea de automatización:
 - Demostró capacidad de crear soluciones robustas y replicables
 
 ### Progracademy — Desarrollador Full Stack (Nov 2022 - Dic 2023)
-📍 Madrid, España
+📍 Madrid, España (Remoto)
 - Construcción y escalabilidad de plataforma e-learning (Angular + Laravel)
 - Diseñó, desarrolló y mantuvo el panel administrativo completo
 - Optimización de backend Laravel y MySQL: diseñó vistas (views) optimizadas como capa de abstracción para consultas complejas
@@ -151,7 +151,7 @@ Línea de automatización:
 - Módulo de Web Scraping con Goutte/Guzzle en PHP para ingesta automática
 
 ### Mandaditos CR — Desarrollador Full Stack (Ene 2021 - Ene 2022)
-📍 Costa Rica
+📍 Costa Rica (Remoto)
 - Módulo de seguimiento en tiempo real: mapas personalizados, monitoreo de repartidores, endpoints RESTful para geolocalización
 - Integración de hardware nativo (Cámara, GPS) con plugins de Capacitor
 - Pruebas de entrega (PoD) y reporte de ubicación precisa
@@ -159,7 +159,7 @@ Línea de automatización:
 - Refactorización de componentes Angular para UX fluida incluso con red intermitente
 
 ### SECCO Service — Desarrollador Front-end (Ene 2021 - Ene 2022)
-📍 Chile
+📍 Chile (Remoto)
 - Mantenimiento y evolución de app móvil híbrida en Ionic
 - Diagnóstico y resolución de cuellos de botella de rendimiento
 - Refactorización de módulos críticos: flujo de autenticación (Login), gestión de perfil (Mi Cuenta), interfaz de inicio
@@ -175,7 +175,7 @@ Línea de automatización:
 - Mantenimiento proactivo y corrección de errores
 
 ### De One — Desarrollador Full Stack (Ene 2020 - Dic 2025)
-📍 Venezuela (único desarrollador, 6 años)
+📍 Venezuela (Remoto — único desarrollador, 6 años)
 - Propiedad total del producto: arquitectura → despliegue en producción
 - Ecosistema tecnológico completo: API RESTful en Laravel (PHP), 4 apps móviles en Ionic (Cliente, Socio, Repartidor, Cocina), paneles web en Angular (Gestión de Tiendas y Admin)
 - Módulo de geolocalización en tiempo real: captura GPS de alta frecuencia desde Ionic, procesamiento en Laravel, visualización en mapas
