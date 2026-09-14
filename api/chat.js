@@ -126,7 +126,7 @@ Línea de automatización:
 - Soporte directo en producción para usuarios de Latinoamérica y USA
 
 ### Squuad / Florida Global University — Desarrollador Full Stack (Jul 2024 - Feb 2026)
-📍 Florida, USA
+📍 Florida, USA — oficina en Venezuela
 - Arquitectó y automatizó el Sistema de Gestión Académica (SIS) y el aula virtual (LMS)
 - Automatizó el proceso de inscripción: diseñó un motor de reglas de negocio basado en "matriz de proyección" que procesaba el perfil del estudiante y lo asignaba a su carga académica sin intervención manual
 - Integró tres plataformas dispares: sistema central en Laravel, portal público en WordPress, LMS en Moodle
@@ -135,7 +135,7 @@ Línea de automatización:
 - Lideró el modelado de base de datos MySQL con esquema relacional optimizado
 
 ### Squuad / American Elite School — Desarrollador Full Stack (Jul 2024 - Feb 2026)
-📍 Florida, USA
+📍 Florida, USA — oficina en Venezuela
 - Replicó y escaló la arquitectura de software completa (Laravel/WordPress/Moodle) del sistema educativo principal
 - Reconfiguración del motor de automatización de inscripciones y la lógica de sincronización de bases de datos MySQL para operar de forma independiente y concurrente
 - Personalizó la capa de presentación creando nuevos plugins y temas hijos de WordPress

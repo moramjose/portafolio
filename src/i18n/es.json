@@ -78,7 +78,7 @@
         "period": "Jul 2024 - Feb 2026",
         "company": "Squuad",
         "role": "Desarrollador Full Stack",
-        "location": "Florida, USA",
+        "location": "Florida, USA — oficina en Venezuela",
         "description": "Repliqué y escalé la arquitectura de software completa (Laravel/WordPress/Moodle) para el lanzamiento de American Elite School, Florida Global University y Universidad Tecnológica Baden Powell. Reconfiguré el motor de automatización de inscripciones y la lógica de sincronización de bases de datos MySQL para que cada universidad operara de forma independiente y concurrente. Personalicé la capa de presentación en WordPress con un conjunto de plugins y temas hijos a medida, demostrando capacidad de crear soluciones replicables que permiten lanzar nuevas unidades de negocio de forma ágil sobre una arquitectura probada."
       },
       {
