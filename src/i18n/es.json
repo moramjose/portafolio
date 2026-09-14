@@ -36,8 +36,9 @@
       "backend": "Backend",
       "frontendMobile": "Frontend & Mobile",
       "databases": "Bases de Datos",
-      "dataBi": "Data & BI",
-      "cmsPlatforms": "CMS & Plataformas",
+      "dataBi": "Microsoft 365 & BI",
+      "aiAutomation": "IA & Automatización",
+        "cmsPlatforms": "CMS & Plataformas",
       "devopsCloud": "DevOps & Cloud"
     }
   },

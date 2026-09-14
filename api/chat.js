@@ -48,16 +48,16 @@ TypeScript, JavaScript, PHP, Java, C#, C++, Visual Basic
 Laravel, ASP.NET / .NET Core, PHP (nativa), C#, Node.js
 
 ### Frontend
-Angular, Ionic, React, React Native, WordPress, HTML5, CSS3, TypeScript/JavaScript
+Angular, Ionic, React, **Next.js**, React Native, WordPress, HTML5, CSS3, TypeScript/JavaScript
 
 ### Mobile
 Ionic (4 apps publicadas en tiendas), React Native, Capacitor (plugins nativos)
 
 ### Bases de Datos
-MySQL (Modelado, Diseño, Optimización de consultas, vistas), SQL Server (Admin & Dev), **SAP HANA** (SQL nativo, replicación de lógica SAP ECC desde módulos FI/CO/MM/SD/PP), Firebase, Optimización de consultas espaciales
+MySQL (Modelado, Diseño, Optimización de consultas, vistas), SQL Server (Admin & Dev), **Supabase** (Postgres gestionado, autenticación y almacenamiento), **SAP HANA** (SQL nativo, replicación de lógica SAP ECC desde módulos FI/CO/MM/SD/PP), Firebase, Optimización de consultas espaciales
 
 ### CMS & Plataformas
-WordPress (creación de plugins y temas personalizados, dominio del core más allá de herramientas estándar), Moodle
+WordPress (creación de plugins y temas personalizados, dominio del core más allá de herramientas estándar), WooCommerce, Moodle
 
 ### DevOps & Infraestructura
 Docker & Docker Compose, Portainer, Nginx Proxy Manager, Linux (Ubuntu Server headless), Gestión de Redes & DNS, Cloudflare, WireGuard VPN
@@ -68,8 +68,14 @@ Grafana, Prometheus, Node Exporter, Netdata, Stack TIG (Telegraf, Influx, Grafan
 ### BPA, Automatización & Business Intelligence
 Power Platform completo: Power Automate, Power Apps (Canvas Apps), Power BI (incl. **Power BI Project / .pbip / TMDL** para versionado en Git, **DAX** para medidas, **Power Query (M)** para transformaciones), SharePoint, MS Forms. Modelado dimensional y construcción de modelos tabulares de gran escala (motores de reglas con miles de combinaciones). **n8n** (self-hosted) para automatización de workflows, integración de APIs y orquestación de procesos sin código.
 
+### IA & Integración de Modelos
+Integración de modelos de IA en flujos de negocio y automatizaciones: **Gemini** (Google) y **OpenAI**. Construcción de asistentes y automatizaciones asistidas por IA; el método principal son scripts a medida, complementados con n8n y Power Automate según el caso.
+
+### Microsoft 365 (Administración)
+Rol de administrador completo: **Exchange**, gestión de accesos y usuarios, resolución de incidencias y diagnóstico de errores en producción.
+
 ### Cloud & Hosting
-AWS (S3, EC2, RDS), Google Cloud, Firebase, Dreamhost
+AWS (S3, EC2, RDS), **Vercel**, Google Cloud, Firebase, Dreamhost
 
 ### APIs & Integraciones
 RESTful, Microsoft Graph API (Teams, Calendar, 365), SSE/WebSockets, Web Scraping (Goutte/Guzzle)

@@ -16,6 +16,7 @@ const categories = [
     items: [
       { name: 'Angular', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' },
       { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+      { name: 'Next.js', icon: 'https://cdn.simpleicons.org/nextdotjs/FFFFFF' },
       { name: 'React Native', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
       { name: 'Ionic', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg' },
       { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
@@ -27,6 +28,7 @@ const categories = [
       { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
       { name: 'SQL Server', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg' },
       { name: 'SAP HANA', icon: 'https://cdn.simpleicons.org/sap/1A6FA5' },
+      { name: 'Supabase', icon: 'https://cdn.simpleicons.org/supabase/3FCF8E' },
       { name: 'Firebase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg' },
     ],
   },
@@ -34,17 +36,26 @@ const categories = [
     key: 'dataBi',
     items: [
       { name: 'Power BI', icon: '/icons/powerbi.svg' },
-      { name: 'Power Automate', icon: '/icons/powerautomate.svg' },
       { name: 'Power Apps', icon: '/icons/powerapps.svg' },
       { name: 'SharePoint', icon: '/icons/sharepoint.svg' },
+      { name: 'Exchange', icon: '/icons/exchange.svg' },
+    ],
+  },
+  {
+    key: 'aiAutomation',
+    items: [
+      { name: 'Gemini', icon: 'https://cdn.simpleicons.org/googlegemini/8E75B2' },
+      { name: 'OpenAI', icon: '/icons/openai.svg' },
+      { name: 'n8n', icon: 'https://cdn.simpleicons.org/n8n/EA4B71' },
+      { name: 'Power Automate', icon: '/icons/powerautomate.svg' },
     ],
   },
   {
     key: 'cmsPlatforms',
     items: [
       { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg' },
+      { name: 'WooCommerce', icon: 'https://cdn.simpleicons.org/woocommerce/96588A' },
       { name: 'Moodle', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/moodle/moodle-original.svg' },
-      { name: 'n8n', icon: 'https://cdn.simpleicons.org/n8n/EA4B71' },
     ],
   },
   {
@@ -52,6 +63,7 @@ const categories = [
     items: [
       { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
       { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg' },
+      { name: 'Vercel', icon: 'https://cdn.simpleicons.org/vercel/FFFFFF' },
       { name: 'Linux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' },
       { name: 'Nginx', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg' },
       { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
