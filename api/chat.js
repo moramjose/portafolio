@@ -116,7 +116,7 @@ Línea de automatización:
 - Desarrollo de nuevas funcionalidades y gestión de releases en App Store y Google Play
 - Soporte directo en producción para usuarios de Latinoamérica y USA
 
-### Squuad / Florida Global University — Desarrollador Full Stack (Jul 2025 - Feb 2026)
+### Squuad / Florida Global University — Desarrollador Full Stack (Jul 2024 - Feb 2026)
 📍 Florida, USA
 - Arquitectó y automatizó el Sistema de Gestión Académica (SIS) y el aula virtual (LMS)
 - Automatizó el proceso de inscripción: diseñó un motor de reglas de negocio basado en "matriz de proyección" que procesaba el perfil del estudiante y lo asignaba a su carga académica sin intervención manual
@@ -125,7 +125,7 @@ Línea de automatización:
 - Construyó desde cero plugins y temas hijos de WordPress (dominio profundo del core)
 - Lideró el modelado de base de datos MySQL con esquema relacional optimizado
 
-### Squuad / American Elite School — Desarrollador Full Stack (Jul 2025 - Feb 2026)
+### Squuad / American Elite School — Desarrollador Full Stack (Jul 2024 - Feb 2026)
 📍 Florida, USA
 - Replicó y escaló la arquitectura de software completa (Laravel/WordPress/Moodle) del sistema educativo principal
 - Reconfiguración del motor de automatización de inscripciones y la lógica de sincronización de bases de datos MySQL para operar de forma independiente y concurrente
