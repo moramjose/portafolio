@@ -80,7 +80,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={status === 'sending'}
-                className="inline-flex items-center gap-2 px-6 py-2.5 sm:px-8 sm:py-3.5 rounded-lg bg-primary text-white hover:bg-primary-dark transition-all font-medium text-base sm:text-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                className="inline-flex items-center gap-2 px-6 py-2.5 sm:px-8 sm:py-3.5 rounded-lg bg-primary text-bg-dark hover:bg-primary-dark transition-all font-medium text-base sm:text-lg disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {status === 'sending' ? (
                   <>

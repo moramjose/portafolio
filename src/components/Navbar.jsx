@@ -55,14 +55,14 @@ export default function Navbar() {
         <div className="md:hidden flex items-center gap-3">
           <button
             onClick={toggleLang}
-            className="text-xs font-mono px-2.5 py-1 rounded-full border border-border hover:border-primary/50 text-text-muted hover:text-primary transition-all"
+            className="text-xs font-mono min-w-11 min-h-11 inline-flex items-center justify-center px-2.5 rounded-full border border-border hover:border-primary/50 text-text-muted hover:text-primary transition-all"
             aria-label="Cambiar idioma"
           >
             {lang === 'es' ? 'EN' : 'ES'}
           </button>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="relative w-8 h-8 flex flex-col justify-center items-center gap-1.5 text-text-secondary hover:text-primary transition-colors"
+            className="relative w-11 h-11 flex flex-col justify-center items-center gap-1.5 text-text-secondary hover:text-primary transition-colors"
             aria-label="Menú de navegación"
             aria-expanded={isOpen}
           >
@@ -73,7 +73,10 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className={`md:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+      <div
+        inert={!isOpen}
+        className={`md:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
+      >
         <div className="px-4 sm:px-6 pb-6 pt-2 bg-bg-dark/95 backdrop-blur-md border-t border-border space-y-1">
           {navItems.map((item, i) => (
             <a

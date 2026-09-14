@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react'
 import es from './es.json'
 import en from './en.json'
 
@@ -13,6 +13,10 @@ export function LanguageProvider({ children }) {
     }
     return 'es'
   })
+
+  useEffect(() => {
+    document.documentElement.lang = lang
+  }, [lang])
 
   const toggleLang = () => {
     const next = lang === 'es' ? 'en' : 'es'

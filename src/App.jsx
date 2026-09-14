@@ -23,9 +23,16 @@ function App() {
 
   return (
     <div className="min-h-screen bg-bg-dark">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-60 focus:px-4 focus:py-2.5 focus:rounded-lg focus:bg-primary focus:text-bg-dark focus:font-medium"
+      >
+        {t.a11y.skipToContent}
+      </a>
+
       <Navbar />
 
-      <main>
+      <main id="main" tabIndex={-1}>
         <Hero />
         <About />
         <Experience />

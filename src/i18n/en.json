@@ -155,13 +155,19 @@
     "sent": "Message sent successfully.",
     "error": "Error sending. Try again or write me directly."
   },
+  "a11y": {
+    "skipToContent": "Skip to content"
+  },
   "chatbot": {
     "title": "AI Assistant",
     "placeholder": "Ask me about José...",
     "welcome": "Hi! 👋 I'm José's AI assistant. Ask me about his experience, projects, or tech stack.",
     "powered": "Powered by Gemini",
     "error": "Sorry, there was an error. Please try again.",
-    "rateLimit": "There's high demand right now 🙏. Please try again in a minute, or reach out to José directly via email or WhatsApp."
+    "rateLimit": "There's high demand right now 🙏. Please try again in a minute, or reach out to José directly via email or WhatsApp.",
+    "open": "Open chat with the AI assistant",
+    "close": "Close chat",
+    "sendMessage": "Send message"
   },
   "footer": {
     "copyright": "Jose Mora. Self-hosted with Docker.",

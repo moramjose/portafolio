@@ -58,7 +58,7 @@ export default function Hero() {
           <a
             href="mailto:dev.moramjose@gmail.com"
             data-umami-event="hero-email"
-            className="flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-primary text-white hover:bg-primary-dark transition-all font-medium text-sm sm:text-base"
+            className="flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-primary text-bg-dark hover:bg-primary-dark transition-all font-medium text-sm sm:text-base"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
             {t.hero.contact}

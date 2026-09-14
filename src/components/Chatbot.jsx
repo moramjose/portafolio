@@ -42,6 +42,13 @@ export default function Chatbot() {
     if (open && !streaming) inputRef.current?.focus()
   }, [open, streaming])
 
+  useEffect(() => {
+    if (!open) return
+    const onKey = (e) => e.key === 'Escape' && setOpen(false)
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [open])
+
   const sendMessage = async () => {
     const text = input.trim()
     if (!text || streaming) return
@@ -131,6 +138,9 @@ export default function Chatbot() {
     <>
       {/* Chat window */}
       <div
+        inert={!open}
+        role="dialog"
+        aria-label={t.chatbot.title}
         className={`fixed bottom-20 sm:bottom-24 right-3 sm:right-5 left-3 sm:left-auto z-50 sm:w-96 transition-all duration-300 ${
           open
             ? 'opacity-100 translate-y-0 pointer-events-auto'
@@ -154,7 +164,7 @@ export default function Chatbot() {
             <button
               onClick={() => setOpen(false)}
               className="text-text-muted hover:text-text-primary transition-colors p-1"
-              aria-label="Close chat"
+              aria-label={t.chatbot.close}
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -163,13 +173,13 @@ export default function Chatbot() {
           </div>
 
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto px-4 py-3 space-y-3">
+          <div className="flex-1 overflow-y-auto px-4 py-3 space-y-3" role="log" aria-live="polite" aria-atomic="false">
             {messages.map((msg, i) => (
               <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                 <div
                   className={`max-w-[85%] px-3.5 py-2.5 rounded-2xl text-sm leading-relaxed whitespace-pre-wrap break-words ${
                     msg.role === 'user'
-                      ? 'bg-primary text-white rounded-br-md'
+                      ? 'bg-primary text-bg-dark rounded-br-md'
                       : 'bg-bg-card-hover text-text-primary border border-border rounded-bl-md'
                   }`}
                 >
@@ -194,13 +204,13 @@ export default function Chatbot() {
                 onKeyDown={handleKeyDown}
                 placeholder={t.chatbot.placeholder}
                 disabled={streaming}
-                className="flex-1 bg-bg-dark border border-border rounded-xl px-4 py-2.5 text-sm text-text-primary placeholder-text-muted focus:outline-none focus:border-primary/50 transition-colors disabled:opacity-50"
+                className="flex-1 bg-bg-dark border border-border rounded-xl px-4 py-2.5 text-sm text-text-primary placeholder-text-muted focus:outline-2 focus:outline-primary focus:outline-offset-1 focus:border-primary/50 transition-colors disabled:opacity-50"
               />
               <button
                 onClick={sendMessage}
                 disabled={!input.trim() || streaming}
-                className="p-2.5 rounded-xl bg-primary text-white hover:bg-primary-dark transition-colors disabled:opacity-30 disabled:cursor-not-allowed shrink-0"
-                aria-label="Send message"
+                className="p-2.5 rounded-xl bg-primary text-bg-dark hover:bg-primary-dark transition-colors disabled:opacity-30 disabled:cursor-not-allowed shrink-0"
+                aria-label={t.chatbot.sendMessage}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
@@ -219,8 +229,9 @@ export default function Chatbot() {
             return !v
           })
         }}
-        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-5 z-50 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-primary hover:bg-primary-dark text-white shadow-lg shadow-primary/25 transition-all duration-300 flex items-center justify-center hover:scale-105"
-        aria-label="Toggle chat"
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-5 z-50 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-primary hover:bg-primary-dark text-bg-dark shadow-lg shadow-primary/25 transition-all duration-300 flex items-center justify-center hover:scale-105"
+        aria-expanded={open}
+        aria-label={open ? t.chatbot.close : t.chatbot.open}
       >
         {open ? (
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
