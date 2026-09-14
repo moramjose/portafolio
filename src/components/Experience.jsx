@@ -3,7 +3,7 @@ import { useLang } from '../i18n/LanguageContext'
 
 const experienceMeta = [
   { tags: ['Microsoft 365', 'Exchange', 'Scripting', 'n8n', 'Power Automate', 'OpenAI'], projectId: null },
-  { tags: ['Next.js', 'React', 'Supabase', 'Vercel', 'WordPress'], projectId: 'faimlab' },
+  { tags: ['Next.js', 'React', 'Supabase', 'WordPress', 'Shopify'], projectId: 'faimlab' },
   { tags: ['SAP HANA', 'Power BI', 'DAX', 'Power Platform', 'SQL Server'], projectId: 'mop' },
   { tags: ['React Native', 'iOS', 'Android', 'REST API'], projectId: 'hablax' },
   { tags: ['Laravel', 'WordPress', 'Moodle', 'MySQL'], projectId: 'squuad' },

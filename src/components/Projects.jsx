@@ -49,8 +49,8 @@ const projectsMeta = [
   },
   {
     id: 'faimlab',
-    tags: ['Next.js', 'React', 'Supabase', 'Vercel', 'WordPress', 'WooCommerce'],
-    highlights: { es: ['6 sitios en producción', 'Marketplace de mentorías en Next.js + Supabase', 'Optimización SEO y rendimiento'], en: ['6 sites in production', 'Mentorship marketplace on Next.js + Supabase', 'SEO & performance optimization'] },
+    tags: ['Next.js', 'React', 'Supabase', 'Shopify', 'WordPress', 'WooCommerce'],
+    highlights: { es: ['11 sitios en producción', 'Marketplace de mentorías en Next.js + Supabase', 'Optimización SEO y rendimiento'], en: ['11 sites in production', 'Mentorship marketplace on Next.js + Supabase', 'SEO & performance optimization'] },
     links: [
       { label: 'Magnum Properties', url: 'https://magnumpropertiesusa.com/', type: 'web' },
       { label: 'Queen Deyna', url: 'https://queendeyna.com/', type: 'web' },
@@ -58,6 +58,11 @@ const projectsMeta = [
       { label: 'Luquid', url: 'https://luquid.com/', type: 'web' },
       { label: 'Hyydrate Wellness', url: 'https://hyydratewellness.com/', type: 'web' },
       { label: 'Enséñame Ya', url: 'https://ensenameya.com/', type: 'web' },
+      { label: 'Top Stop Music', url: 'https://topstopmusic.com/', type: 'web' },
+      { label: 'Gabriela Montes de Oca', url: 'https://gabrielamdof.xyz/', type: 'web' },
+      { label: 'By Levane Lab', url: 'https://bylevanelab.com/', type: 'web' },
+      { label: 'Zilevet', url: 'https://zilevet.com/', type: 'web' },
+      { label: 'Marquin Talent Agency', url: 'https://marquinatalentagency.com/', type: 'web' },
     ],
     gradient: 'from-purple-500/20 to-pink-500/20',
     accent: 'text-purple-400',

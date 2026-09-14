@@ -55,6 +55,7 @@ const categories = [
     items: [
       { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg' },
       { name: 'WooCommerce', icon: 'https://cdn.simpleicons.org/woocommerce/96588A' },
+      { name: 'Shopify', icon: 'https://cdn.simpleicons.org/shopify/7AB55C' },
       { name: 'Moodle', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/moodle/moodle-original.svg' },
     ],
   },

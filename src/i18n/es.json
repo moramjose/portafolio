@@ -59,7 +59,7 @@
         "company": "Faim Lab",
         "role": "Desarrollo Web y Webmastering",
         "location": "Florida, USA (Remoto)",
-        "description": "Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica. Construyo sitios corporativos, e-commerce con WooCommerce, portales de contenido y landing pages optimizadas para SEO y conversión, abarcando todo el ciclo: arquitectura, infraestructura, despliegue y mantenimiento webmaster. Construí además Enséñame Ya, un marketplace de mentorías 1:1 en vivo entre alumnos y tutores, con Next.js y React sobre Supabase (base de datos, autenticación y almacenamiento) y desplegado en Vercel."
+        "description": "Desarrollo, despliegue y administración de 10+ sitios web para clientes en USA y Latinoamérica. Construyo sitios corporativos, e-commerce con WooCommerce y Shopify, portales de contenido y landing pages optimizadas para SEO y conversión, abarcando todo el ciclo: arquitectura, infraestructura, despliegue y mantenimiento webmaster. Construí además Enséñame Ya, un marketplace de mentorías 1:1 en vivo entre alumnos y tutores, con Next.js y React sobre Supabase (base de datos, autenticación y almacenamiento) y desplegado en Vercel."
       },
       {
         "period": "Ago 2025 - Presente",
@@ -139,7 +139,7 @@
       "deone": { "title": "De One - Plataforma de Delivery", "description": "Ecosistema completo de delivery: API RESTful en Laravel, 4 apps móviles (Cliente, Socio, Repartidor, Cocina) en Ionic, paneles web en Angular, geolocalización en tiempo real y despliegue en AWS." },
       "progracademy": { "title": "Progracademy - E-learning", "description": "Plataforma de e-learning con integración de Microsoft 365 vía Graph API para automatizar clases en Teams, Business Intelligence con Power BI y web scraping para ingesta automática de contenido." },
       "squuad": { "title": "Squuad - Portales Universitarios", "description": "Sistema de gestión académica y aula virtual replicado para 3 universidades. Motor de inscripción automatizado con reglas de negocio. Integración Laravel + WordPress + Moodle con sincronización en tiempo real." },
-      "faimlab": { "title": "Faim Lab - Desarrollo Web", "description": "Desarrollo y administración de múltiples plataformas digitales para clientes en USA y Latinoamérica. Sitios corporativos, e-commerce y portales de contenido, además de Enséñame Ya: un marketplace de mentorías 1:1 en vivo construido con Next.js, React, Supabase y Vercel." },
+      "faimlab": { "title": "Faim Lab - Desarrollo Web", "description": "Desarrollo y administración de múltiples plataformas digitales para clientes en USA y Latinoamérica. Sitios corporativos, e-commerce en WooCommerce y Shopify, y portales de contenido, además de Enséñame Ya: un marketplace de mentorías 1:1 en vivo construido con Next.js, React, Supabase y Vercel." },
       "hablax": { "title": "Hablax - App de Recargas Móviles", "description": "Aplicación móvil de recargas internacionales para la plataforma de comunicaciones Hablax. Disponible en Android e iOS." },
       "homelab": { "title": "Homelab - Servidor Enterprise en Casa", "description": "Servidor Ubuntu con arquitectura de microservicios contenerizada. AdGuard Home, Nginx Proxy Manager, Cloudflare Tunnel, monitoreo con Netdata, VPN con WireGuard y CLI personalizado para gestión." }
     }

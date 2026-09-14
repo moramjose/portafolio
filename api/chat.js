@@ -57,7 +57,7 @@ Ionic (4 apps publicadas en tiendas), React Native, Capacitor (plugins nativos)
 MySQL (Modelado, Diseño, Optimización de consultas, vistas), SQL Server (Admin & Dev), **Supabase** (Postgres gestionado, autenticación y almacenamiento), **SAP HANA** (SQL nativo, replicación de lógica SAP ECC desde módulos FI/CO/MM/SD/PP), Firebase, Optimización de consultas espaciales
 
 ### CMS & Plataformas
-WordPress (creación de plugins y temas personalizados, dominio del core más allá de herramientas estándar), WooCommerce, Moodle
+WordPress (creación de plugins y temas personalizados, dominio del core más allá de herramientas estándar), WooCommerce, **Shopify**, Moodle
 
 ### DevOps & Infraestructura
 Docker & Docker Compose, Portainer, Nginx Proxy Manager, Linux (Ubuntu Server headless), Gestión de Redes & DNS, Cloudflare, WireGuard VPN
@@ -102,8 +102,8 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 
 ### Faim Lab — Desarrollo Web y Webmastering (Ene 2026 - Presente)
 📍 Florida, USA (Remoto)
-- Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica
-- Sitios corporativos, e-commerce con WooCommerce, portales de contenido
+- Desarrollo, despliegue y administración de 10+ sitios web para clientes en USA y Latinoamérica
+- Sitios corporativos, e-commerce con WooCommerce y Shopify, portales de contenido
 - Landing pages optimizadas para SEO y conversión
 - Construyó **Enséñame Ya** (https://ensenameya.com/), un marketplace de mentorías 1:1 en vivo entre alumnos y tutores: Next.js + React en el front, Supabase para base de datos, autenticación y almacenamiento, desplegado en Vercel
 
@@ -210,7 +210,7 @@ Línea de automatización:
 
 4. **Squuad (Florida Global University + American Elite School + Universidad Tecnológica Baden Powell)** — Sistema académico replicado para 3 universidades. Motor de inscripción automatizado con "matriz de proyección". Laravel + WordPress + Moodle con sincronización en tiempo real.
 
-5. **Faim Lab** — Desarrollo y administración de 6+ plataformas digitales para clientes en USA y Latinoamérica, incluido **Enséñame Ya** (https://ensenameya.com/), marketplace de mentorías 1:1 en vivo hecho con Next.js, React, Supabase y Vercel.
+5. **Faim Lab** — Desarrollo y administración de 11 plataformas digitales para clientes en USA y Latinoamérica, incluido **Enséñame Ya** (https://ensenameya.com/), marketplace de mentorías 1:1 en vivo hecho con Next.js, React, Supabase y Vercel.
 
 6. **Hablax** — App móvil de recargas internacionales con React Native, Android + iOS, con pasarelas de pago y push notifications.
 
