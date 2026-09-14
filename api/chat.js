@@ -85,6 +85,15 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 
 ## EXPERIENCIA PROFESIONAL (detallada)
 
+### Invicta Business Partners — AI Automation & Integration Specialist (Ago 2026 - Presente)
+📍 Puerto Rico — José trabaja en remoto desde Venezuela · En curso
+- Administrador completo del entorno Microsoft de la firma
+- Gestión de accesos y resolución de incidencias de usuarios
+- Administración de Exchange y diagnóstico/resolución de errores en producción
+- Automatizaciones internas para la firma y externas para sus clientes
+- Integración de modelos de IA (Gemini, OpenAI) en flujos de trabajo del negocio
+- Enfoque en soluciones rápidas que desbloqueen la operación del día a día
+
 ### Faim Lab — Desarrollo Web y Webmastering (Ene 2026 - Presente)
 📍 Florida, USA
 - Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica

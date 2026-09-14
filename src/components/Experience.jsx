@@ -2,6 +2,7 @@ import AnimateIn from './AnimateIn'
 import { useLang } from '../i18n/LanguageContext'
 
 const experienceMeta = [
+  { tags: ['Microsoft 365', 'Exchange', 'Gemini', 'OpenAI', 'Automation'], projectId: null },
   { tags: ['Next.js', 'React', 'Supabase', 'Vercel', 'WordPress'], projectId: 'faimlab' },
   { tags: ['SAP HANA', 'Power BI', 'DAX', 'Power Platform', 'SQL Server'], projectId: 'mop' },
   { tags: ['React Native', 'iOS', 'Android', 'REST API'], projectId: 'hablax' },
