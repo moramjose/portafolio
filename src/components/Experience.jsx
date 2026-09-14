@@ -2,15 +2,15 @@ import AnimateIn from './AnimateIn'
 import { useLang } from '../i18n/LanguageContext'
 
 const experienceMeta = [
-  { tags: ['WordPress', 'WooCommerce', 'PHP', 'SEO'], projectId: 'faimlab' },
+  { tags: ['Next.js', 'React', 'Supabase', 'Vercel', 'WordPress'], projectId: 'faimlab' },
   { tags: ['SAP HANA', 'Power BI', 'DAX', 'Power Platform', 'SQL Server'], projectId: 'mop' },
   { tags: ['React Native', 'iOS', 'Android', 'REST API'], projectId: 'hablax' },
   { tags: ['Laravel', 'WordPress', 'Moodle', 'MySQL'], projectId: 'squuad' },
   { tags: ['Angular', 'Laravel', 'MS Graph API', 'Power BI'], projectId: 'progracademy' },
-  { tags: ['Laravel', 'Ionic', 'Angular', 'AWS', 'MySQL'], projectId: 'deone' },
   { tags: ['Ionic', 'Angular', 'MySQL', 'Capacitor'], projectId: null },
   { tags: ['Ionic', 'IoT', 'SCSS', 'Frontend'], projectId: null },
   { tags: ['Ionic', 'Angular', 'Hybrid Mobile', 'Frontend'], projectId: null },
+  { tags: ['Laravel', 'Ionic', 'Angular', 'AWS', 'MySQL'], projectId: 'deone' },
 ]
 
 export default function Experience() {

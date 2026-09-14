@@ -47,11 +47,11 @@
     "viewProject": "View project",
     "items": [
       {
-        "period": "2026 - Present",
+        "period": "Jan 2026 - Present",
         "company": "Faim Lab",
         "role": "Web Development & Webmastering",
         "location": "Florida, USA",
-        "description": "Development, deployment, and administration of 5+ websites for clients in the US and Latin America. I build corporate sites, WooCommerce e-commerce, content portals, and landing pages optimized for SEO and conversion, covering the full cycle: architecture, infrastructure, deployment, and webmaster maintenance."
+        "description": "Development, deployment, and administration of 5+ websites for clients in the US and Latin America. I build corporate sites, WooCommerce e-commerce, content portals, and landing pages optimized for SEO and conversion, covering the full cycle: architecture, infrastructure, deployment, and webmaster maintenance. Also built Enséñame Ya, a live 1:1 mentorship marketplace connecting students and tutors, with Next.js and React on Supabase (database, auth, and storage), deployed on Vercel."
       },
       {
         "period": "Aug 2025 - Present",
@@ -68,46 +68,46 @@
         "description": "Maintenance and evolution of the international mobile top-up app (React Native, iOS and Android). Integrated the NMI payment processor, fixed legacy defects from prior development cycles, shipped new features, and managed the full release process on the App Store and Google Play (reviews, certificates, releases). Direct production support for users in Latin America and the US."
       },
       {
-        "period": "2024 - 2026",
+        "period": "Jul 2025 - Feb 2026",
         "company": "Squuad",
         "role": "Full Stack Developer",
         "location": "Florida, USA",
         "description": "Replicated and scaled the complete software architecture (Laravel/WordPress/Moodle) for the launch of American Elite School, Florida Global University, and Universidad Tecnológica Baden Powell. Reconfigured the enrollment automation engine and the MySQL database synchronization logic so each university could operate independently and concurrently. Customized the WordPress presentation layer with a set of custom plugins and child themes, demonstrating the ability to build replicable solutions that allow new business units to launch quickly on top of a proven architecture."
       },
       {
-        "period": "2022 - 2023",
+        "period": "Nov 2022 - Dec 2023",
         "company": "Progracademy",
         "role": "Full Stack Developer",
         "location": "Madrid, Spain",
         "description": "Built and scaled the e-learning platform (Angular + Laravel), covering everything from database architecture to third-party API integrations. Designed and maintained the full admin panel and optimized the backend with SQL views as an abstraction layer for complex queries, significantly improving reporting performance. Led the Microsoft 365 integration via Graph API to automate class scheduling in Teams and student invitations. Implemented Business Intelligence by exposing secure Laravel APIs to embed dashboards in Power BI, and developed Web Scraping modules with Goutte and Guzzle for automatic content ingestion."
       },
       {
-        "period": "2019 - 2025",
-        "company": "De One",
-        "role": "Full Stack Developer",
-        "location": "Venezuela",
-        "description": "As the sole Full Stack Developer, I took full ownership of the \"De One\" delivery ecosystem, from architecture to production deployment. Designed the complete stack: a Laravel RESTful API as the core, 4 mobile apps in Ionic (Customer, Partner, Driver, Kitchen), and Angular web panels (Store Management and Admin). Implemented the real-time geolocation module with high-frequency GPS capture from the driver app, backend processing, and map visualization for customers and partners. Deployed and managed the entire AWS infrastructure, tuning EC2 for API performance and configuring S3 for static content delivery. Managed the publication of all 4 apps on Google Play and App Store, and coordinated support personnel taking on 360° administrative management of the project."
-      },
-      {
-        "period": "2021 - 2022",
+        "period": "Jan 2021 - Jan 2022",
         "company": "Mandaditos CR",
         "role": "Full Stack Developer",
         "location": "Costa Rica",
         "description": "Collaborated in a high-performance team maintaining and scaling a critical operations platform — Ionic/Angular mobile app backed by a MySQL backend. Led the implementation of the real-time tracking module, designing custom map interfaces to monitor drivers and developing the REST endpoints needed to process and serve geolocation data efficiently. Integrated native hardware (Camera, GPS) with Capacitor plugins, enabling drivers to capture proof of delivery (PoD) and report precise location. Diagnosed and resolved bottlenecks across the stack, optimizing spatial SQL queries in MySQL and refactoring Angular components."
       },
       {
-        "period": "2021 - 2022",
+        "period": "Jan 2021 - Jan 2022",
         "company": "PYKRS",
         "role": "Front-end Developer",
         "location": "Venezuela (Remote)",
         "description": "Collaborated on the evolution of PYKRS, an IoT product that lets users manage the temperature of heated garments via smartphone. Refactored the CSS/SCSS style architecture of the main screens with a more modular design to improve the user experience when interacting with the hardware. Owned project dependency management, planning and executing critical library updates to mitigate vulnerabilities. Ensured overall platform stability through proactive maintenance and bug fixing."
       },
       {
-        "period": "2021 - 2022",
+        "period": "Jan 2021 - Jan 2022",
         "company": "SECCO Service",
         "role": "Front-end Developer",
         "location": "Chile",
         "description": "Took over the maintenance and evolution of an existing Ionic hybrid mobile app, diagnosing and resolving performance bottlenecks. Refactored critical modules — authentication flow (Login), user profile (My Account), and home interface — improving UX and code maintainability. Executed a full update of the Ionic stack, mitigating vulnerabilities and ensuring long-term compatibility. Implemented improvements in loading processes and application state management, achieving smoother navigation and reduced response times."
+      },
+      {
+        "period": "Jan 2020 - Dec 2025",
+        "company": "De One",
+        "role": "Full Stack Developer",
+        "location": "Venezuela",
+        "description": "As the sole Full Stack Developer, I took full ownership of the \"De One\" delivery ecosystem, from architecture to production deployment. Designed the complete stack: a Laravel RESTful API as the core, 4 mobile apps in Ionic (Customer, Partner, Driver, Kitchen), and Angular web panels (Store Management and Admin). Implemented the real-time geolocation module with high-frequency GPS capture from the driver app, backend processing, and map visualization for customers and partners. Deployed and managed the entire AWS infrastructure, tuning EC2 for API performance and configuring S3 for static content delivery. Managed the publication of all 4 apps on Google Play and App Store, and coordinated support personnel taking on 360° administrative management of the project."
       }
     ]
   },
@@ -131,7 +131,7 @@
       "deone": { "title": "De One - Delivery Platform", "description": "Complete delivery ecosystem: RESTful API in Laravel, 4 mobile apps (Customer, Partner, Driver, Kitchen) in Ionic, web panels in Angular, real-time geolocation, and AWS deployment." },
       "progracademy": { "title": "Progracademy - E-learning", "description": "E-learning platform with Microsoft 365 integration via Graph API for automating Teams classes, Business Intelligence with Power BI, and web scraping for automatic content ingestion." },
       "squuad": { "title": "Squuad - University Portals", "description": "Academic management system and virtual classroom replicated for 3 universities. Automated enrollment engine with business rules. Laravel + WordPress + Moodle integration with real-time sync." },
-      "faimlab": { "title": "Faim Lab - Web Development", "description": "Development and administration of multiple digital platforms for clients in the US and Latin America. Corporate sites, e-commerce, and content portals." },
+      "faimlab": { "title": "Faim Lab - Web Development", "description": "Development and administration of multiple digital platforms for clients in the US and Latin America. Corporate sites, e-commerce, and content portals, plus Enséñame Ya: a live 1:1 mentorship marketplace built with Next.js, React, Supabase, and Vercel." },
       "hablax": { "title": "Hablax - Mobile Recharge App", "description": "International mobile recharge application for the Hablax communications platform. Available on Android and iOS." },
       "homelab": { "title": "Homelab - Home Enterprise Server", "description": "Ubuntu server with containerized microservices architecture. AdGuard Home, Nginx Proxy Manager, Cloudflare Tunnel, Netdata monitoring, WireGuard VPN, and custom management CLI." }
     }

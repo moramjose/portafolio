@@ -49,14 +49,15 @@ const projectsMeta = [
   },
   {
     id: 'faimlab',
-    tags: ['WordPress', 'WooCommerce', 'PHP', 'CSS', 'SEO'],
-    highlights: { es: ['5 sitios en producción', 'Diseño responsive personalizado', 'Optimización SEO y rendimiento'], en: ['5 sites in production', 'Custom responsive design', 'SEO & performance optimization'] },
+    tags: ['Next.js', 'React', 'Supabase', 'Vercel', 'WordPress', 'WooCommerce'],
+    highlights: { es: ['6 sitios en producción', 'Marketplace de mentorías en Next.js + Supabase', 'Optimización SEO y rendimiento'], en: ['6 sites in production', 'Mentorship marketplace on Next.js + Supabase', 'SEO & performance optimization'] },
     links: [
       { label: 'Magnum Properties', url: 'https://magnumpropertiesusa.com/', type: 'web' },
       { label: 'Queen Deyna', url: 'https://queendeyna.com/', type: 'web' },
       { label: 'Desde los Números', url: 'https://desdelosnumeros.com/', type: 'web' },
       { label: 'Luquid', url: 'https://luquid.com/', type: 'web' },
       { label: 'Hyydrate Wellness', url: 'https://hyydratewellness.com/', type: 'web' },
+      { label: 'Enséñame Ya', url: 'https://ensenameya.com/', type: 'web' },
     ],
     gradient: 'from-purple-500/20 to-pink-500/20',
     accent: 'text-purple-400',
