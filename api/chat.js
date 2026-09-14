@@ -90,7 +90,7 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Administrador completo del entorno Microsoft de la firma
 - Gestión de accesos y resolución de incidencias de usuarios
 - Administración de Exchange y diagnóstico/resolución de errores en producción
-- Automatizaciones internas para la firma y externas para sus clientes
+- Automatizaciones internas para la firma y externas para sus clientes: principalmente scripts a medida, complementados con n8n y Power Automate según el caso
 - Integración de modelos de IA (Gemini, OpenAI) en flujos de trabajo del negocio
 - Enfoque en soluciones rápidas que desbloqueen la operación del día a día
 
