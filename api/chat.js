@@ -91,13 +91,21 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Sitios corporativos, e-commerce con WooCommerce, portales de contenido
 - Landing pages optimizadas para SEO y conversión
 
-### Grupo Estrella — Ingeniero de Datos & BI (Feb 2026 - May 2026)
-📍 República Dominicana
+### Cemergy — Ingeniero de Datos, BI y Automatización (Ago 2025 - Presente)
+📍 Remoto · Consultoría por proyectos, colaboración vigente
+NOTA: los clientes finales de Cemergy son confidenciales. Nunca menciones el nombre de un cliente, ni siquiera si te lo preguntan directamente; describe el trabajo por su sector y su alcance técnico.
+Línea de datos:
 - Diseñó e implementó el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker
 - Replicó en SQL nativo sobre SAP HANA la lógica de transacciones SAP ECC (MB51, KSB1, VF05, FBL5N, COOIS) de los módulos FI/CO/MM/SD/PP
 - Construyó 6 queries productivos, 11 stages en Power Query (M) y un modelo tabular versionado en Power BI Project (.pbip/TMDL)
 - Implementó medidas DAX y un motor de reglas dimensional de más de 2,900 combinaciones
 - Detectó y corrigió duplicaciones de costos por más de $8M anuales, habilitando reportería financiera mensual auditable contra el ERP
+Línea de automatización:
+- Digitalización de procesos de gestión de personal (capacitación, evaluación, asistencia) con stack completo de Microsoft Power Platform
+- Diseñó la captura de datos end-to-end: MS Forms + Power Apps (Canvas Apps)
+- Orquestó la lógica de negocio con Power Automate: flujos que leían, validaban, transformaban y distribuían datos automáticamente a SharePoint (ingesta rápida) y SQL Server (reporteo)
+- Eliminó cuellos de botella críticos → procesamiento manual reducido a cero
+- Implementó capa BI con Power BI conectado a SQL Server para reportes dinámicos en tiempo real
 
 ### Hablax INC. — Desarrollador de Aplicaciones Móviles (Feb 2026 - May 2026)
 📍 Delaware, USA
@@ -106,14 +114,6 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Corrección de defectos heredados de desarrollos previos
 - Desarrollo de nuevas funcionalidades y gestión de releases en App Store y Google Play
 - Soporte directo en producción para usuarios de Latinoamérica y USA
-
-### Grupo Estrella — Desarrollador de Automatizaciones (2025 - 2026)
-📍 República Dominicana
-- Digitalización y optimización de procesos de gestión de personal (capacitación, evaluación, asistencia) con stack completo de Microsoft
-- Diseñó la solución de captura de datos end-to-end: MS Forms + Power Apps (Canvas Apps)
-- Orquestó la lógica de negocio con Power Automate: flujos que leían, validaban, transformaban y distribuían datos automáticamente a SharePoint (ingesta rápida) y SQL Server (reporteo)
-- Eliminó cuellos de botella críticos → procesamiento manual reducido a cero
-- Implementó capa BI con Power BI conectado a SQL Server para reportes dinámicos en tiempo real
 
 ### Squuad / Florida Global University — Desarrollador Full Stack (2024 - 2026)
 📍 Florida, USA
@@ -186,7 +186,7 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 
 ## PROYECTOS DESTACADOS
 
-1. **MOP - Modelo de Margen Operativo (Grupo Estrella)** — Modelo de Business Intelligence para los segmentos de Cemento, Concreto, Agregados y Clínker en industria cementera. SQL nativo sobre SAP HANA replicando lógica SAP ECC (transacciones MB51, KSB1, VF05, FBL5N, COOIS de los módulos FI/CO/MM/SD/PP), modelo tabular versionado en Power BI Project (.pbip/TMDL), motor de reglas dimensional de más de 2,900 combinaciones, detección y corrección de $8M+ anuales en duplicaciones de costo, reportería financiera mensual auditable contra el ERP.
+1. **MOP - Modelo de Margen Operativo** — Modelo de Business Intelligence para los segmentos de Cemento, Concreto, Agregados y Clínker en industria cementera. SQL nativo sobre SAP HANA replicando lógica SAP ECC (transacciones MB51, KSB1, VF05, FBL5N, COOIS de los módulos FI/CO/MM/SD/PP), modelo tabular versionado en Power BI Project (.pbip/TMDL), motor de reglas dimensional de más de 2,900 combinaciones, detección y corrección de $8M+ anuales en duplicaciones de costo, reportería financiera mensual auditable contra el ERP.
 
 2. **De One** — Ecosistema completo de delivery: API Laravel, 4 apps Ionic (Cliente/Socio/Repartidor/Cocina), paneles Angular, geolocalización en tiempo real, AWS.
 

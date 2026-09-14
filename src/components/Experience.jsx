@@ -3,10 +3,9 @@ import { useLang } from '../i18n/LanguageContext'
 
 const experienceMeta = [
   { tags: ['WordPress', 'WooCommerce', 'PHP', 'SEO'], projectId: 'faimlab' },
-  { tags: ['SAP HANA', 'Power BI', 'DAX', 'SQL', 'Power Query'], projectId: 'mop' },
+  { tags: ['SAP HANA', 'Power BI', 'DAX', 'Power Platform', 'SQL Server'], projectId: 'mop' },
   { tags: ['React Native', 'iOS', 'Android', 'REST API'], projectId: 'hablax' },
   { tags: ['Laravel', 'WordPress', 'Moodle', 'MySQL'], projectId: 'squuad' },
-  { tags: ['Power Platform', 'SQL Server', 'SharePoint', 'Power BI'], projectId: null },
   { tags: ['Angular', 'Laravel', 'MS Graph API', 'Power BI'], projectId: 'progracademy' },
   { tags: ['Laravel', 'Ionic', 'Angular', 'AWS', 'MySQL'], projectId: 'deone' },
   { tags: ['Ionic', 'Angular', 'MySQL', 'Capacitor'], projectId: null },

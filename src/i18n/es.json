@@ -54,11 +54,11 @@
         "description": "Desarrollo, despliegue y administración de 5+ sitios web para clientes en USA y Latinoamérica. Construyo sitios corporativos, e-commerce con WooCommerce, portales de contenido y landing pages optimizadas para SEO y conversión, abarcando todo el ciclo: arquitectura, infraestructura, despliegue y mantenimiento webmaster."
       },
       {
-        "period": "Feb 2026 - May 2026",
-        "company": "Grupo Estrella",
-        "role": "Ingeniero de Datos & BI",
-        "location": "República Dominicana",
-        "description": "Diseñé e implementé el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker, replicando en SQL nativo sobre SAP HANA la lógica de transacciones SAP ECC (MB51, KSB1, VF05, FBL5N, COOIS) de los módulos FI/CO/MM/SD/PP. Construí 6 queries productivos, 11 stages en Power Query (M) y un modelo tabular versionado en Power BI Project (.pbip/TMDL) con medidas DAX y un motor de reglas dimensional de más de 2,900 combinaciones. Detecté y corregí duplicaciones de costos por más de $8M anuales, habilitando reportería financiera mensual auditable contra el ERP."
+        "period": "Ago 2025 - Presente",
+        "company": "Cemergy",
+        "role": "Ingeniero de Datos, BI y Automatización",
+        "location": "Remoto",
+        "description": "Consultoría por proyectos. Línea de datos: diseñé e implementé el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker, replicando en SQL nativo sobre SAP HANA la lógica de transacciones SAP ECC (MB51, KSB1, VF05, FBL5N, COOIS) de los módulos FI/CO/MM/SD/PP: 6 queries productivos, 11 stages en Power Query (M) y un modelo tabular versionado en Power BI Project (.pbip/TMDL) con medidas DAX y un motor de reglas dimensional de más de 2,900 combinaciones, detectando y corrigiendo duplicaciones de costos por más de $8M anuales. Línea de automatización: digitalicé procesos de gestión de personal (capacitación, evaluación, asistencia) con el stack completo de Microsoft Power Platform, con captura end-to-end en MS Forms y Power Apps, orquestación en Power Automate hacia Listas de SharePoint y SQL Server, y la capa de BI conectando Power BI a SQL Server."
       },
       {
         "period": "Feb 2026 - May 2026",
@@ -73,13 +73,6 @@
         "role": "Desarrollador Full Stack",
         "location": "Florida, USA",
         "description": "Repliqué y escalé la arquitectura de software completa (Laravel/WordPress/Moodle) para el lanzamiento de American Elite School, Florida Global University y Universidad Tecnológica Baden Powell. Reconfiguré el motor de automatización de inscripciones y la lógica de sincronización de bases de datos MySQL para que cada universidad operara de forma independiente y concurrente. Personalicé la capa de presentación en WordPress con un conjunto de plugins y temas hijos a medida, demostrando capacidad de crear soluciones replicables que permiten lanzar nuevas unidades de negocio de forma ágil sobre una arquitectura probada."
-      },
-      {
-        "period": "2025 - 2026",
-        "company": "Grupo Estrella",
-        "role": "Desarrollador de Automatización",
-        "location": "República Dominicana",
-        "description": "Digitalicé los procesos de gestión de personal (capacitación, evaluación, asistencia) usando el stack completo de Microsoft Power Platform. Diseñé la captura de datos end-to-end con MS Forms y Power Apps (Canvas Apps) como interfaz de campo y oficina, orquesté la lógica de negocio con Power Automate (lectura, validación, transformación) distribuyendo automáticamente a Listas de SharePoint para ingesta rápida y a SQL Server como base centralizada de reporteo. Implementé la capa de BI conectando Power BI a SQL Server, eliminando cuellos de botella manuales y habilitando reportes dinámicos en tiempo real para la dirección."
       },
       {
         "period": "2022 - 2023",
@@ -134,7 +127,7 @@
     "linkLabel": "enlace",
     "linksLabel": "enlaces",
     "items": {
-      "mop": { "title": "MOP - Modelo de Margen Operativo", "description": "Modelo de inteligencia de negocio para los segmentos de Cemento, Concreto, Agregados y Clínker en Grupo Estrella. Replicó lógica SAP ECC (FI/CO/MM/SD/PP) en SQL nativo sobre SAP HANA, con modelo tabular versionado en Power BI Project (.pbip/TMDL) y motor de reglas dimensional de más de 2,900 combinaciones." },
+      "mop": { "title": "MOP - Modelo de Margen Operativo", "description": "Modelo de inteligencia de negocio para los segmentos de Cemento, Concreto, Agregados y Clínker. Replicó lógica SAP ECC (FI/CO/MM/SD/PP) en SQL nativo sobre SAP HANA, con modelo tabular versionado en Power BI Project (.pbip/TMDL) y motor de reglas dimensional de más de 2,900 combinaciones." },
       "deone": { "title": "De One - Plataforma de Delivery", "description": "Ecosistema completo de delivery: API RESTful en Laravel, 4 apps móviles (Cliente, Socio, Repartidor, Cocina) en Ionic, paneles web en Angular, geolocalización en tiempo real y despliegue en AWS." },
       "progracademy": { "title": "Progracademy - E-learning", "description": "Plataforma de e-learning con integración de Microsoft 365 vía Graph API para automatizar clases en Teams, Business Intelligence con Power BI y web scraping para ingesta automática de contenido." },
       "squuad": { "title": "Squuad - Portales Universitarios", "description": "Sistema de gestión académica y aula virtual replicado para 3 universidades. Motor de inscripción automatizado con reglas de negocio. Integración Laravel + WordPress + Moodle con sincronización en tiempo real." },
