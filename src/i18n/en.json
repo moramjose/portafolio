@@ -64,7 +64,7 @@
         "period": "Aug 2025 - Present",
         "company": "Cemergy",
         "role": "Data, BI & Automation Engineer",
-        "location": "Remote",
+        "location": "Spain (Remote)",
         "description": "Project-based consulting. Data track: designed and implemented the MOP model (Product Operating Margin) for the Cement, Concrete, Aggregates, and Clinker segments, replicating SAP ECC transaction logic (MB51, KSB1, VF05, FBL5N, COOIS) from the FI/CO/MM/SD/PP modules in native SQL on SAP HANA: 6 production queries, 11 Power Query (M) stages, and a tabular model versioned as a Power BI Project (.pbip/TMDL) with DAX measures and a dimensional rules engine of 2,900+ combinations, detecting and fixing cost duplications worth $8M+ per year. Automation track: digitized personnel management processes (training, evaluation, attendance) with the full Microsoft Power Platform stack — end-to-end capture in MS Forms and Power Apps, orchestration in Power Automate into SharePoint Lists and SQL Server, and the BI layer connecting Power BI to SQL Server."
       },
       {

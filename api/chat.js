@@ -102,7 +102,7 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Construyó **Enséñame Ya** (https://ensenameya.com/), un marketplace de mentorías 1:1 en vivo entre alumnos y tutores: Next.js + React en el front, Supabase para base de datos, autenticación y almacenamiento, desplegado en Vercel
 
 ### Cemergy — Ingeniero de Datos, BI y Automatización (Ago 2025 - Presente)
-📍 Remoto · Consultoría por proyectos, colaboración vigente
+📍 España (Remoto) · Consultoría por proyectos, colaboración vigente
 NOTA: los clientes finales de Cemergy son confidenciales. Nunca menciones el nombre de un cliente, ni siquiera si te lo preguntan directamente; describe el trabajo por su sector y su alcance técnico.
 Línea de datos:
 - Diseñó e implementó el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker
