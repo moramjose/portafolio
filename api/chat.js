@@ -91,8 +91,8 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 
 ## EXPERIENCIA PROFESIONAL (detallada)
 
-### Invicta Business Partners — AI Automation & Integration Specialist (Ago 2026 - Presente)
-📍 Puerto Rico — José trabaja en remoto desde Venezuela · En curso
+### Invicta Business Partners — AI Automation & Integration Specialist (Ago 2026)
+📍 Puerto Rico — José trabaja en remoto desde Venezuela
 - Administrador completo del entorno Microsoft de la firma
 - Gestión de accesos y resolución de incidencias de usuarios
 - Administración de Exchange y diagnóstico/resolución de errores en producción
@@ -100,15 +100,15 @@ Resolución de Problemas, Comunicación Efectiva, Colaboración en Equipo, Apren
 - Integración de modelos de IA (Gemini, OpenAI) en flujos de trabajo del negocio
 - Enfoque en soluciones rápidas que desbloqueen la operación del día a día
 
-### Faim Lab — Desarrollo Web y Webmastering (Ene 2026 - Presente)
+### Faim Lab — Desarrollo Web y Webmastering (Ene 2026)
 📍 Florida, USA (Remoto)
 - Desarrollo, despliegue y administración de 10+ sitios web para clientes en USA y Latinoamérica
 - Sitios corporativos, e-commerce con WooCommerce y Shopify, portales de contenido
 - Landing pages optimizadas para SEO y conversión
 - Construyó **Enséñame Ya** (https://ensenameya.com/), un marketplace de mentorías 1:1 en vivo entre alumnos y tutores: Next.js + React en el front, Supabase para base de datos, autenticación y almacenamiento, desplegado en Vercel
 
-### Cemergy — Ingeniero de Datos, BI y Automatización (Ago 2025 - Presente)
-📍 España (Remoto) · Consultoría por proyectos, colaboración vigente
+### Cemergy — Ingeniero de Datos, BI y Automatización (Ago 2025)
+📍 España (Remoto) · Consultoría por proyectos
 NOTA: los clientes finales de Cemergy son confidenciales. Nunca menciones el nombre de un cliente, ni siquiera si te lo preguntan directamente; describe el trabajo por su sector y su alcance técnico.
 Línea de datos:
 - Diseñó e implementó el Modelo MOP (Margen Operativo de Producto) para los segmentos de Cemento, Concreto, Agregados y Clínker

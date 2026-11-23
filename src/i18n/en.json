@@ -48,21 +48,21 @@
     "viewProject": "View project",
     "items": [
       {
-        "period": "Aug 2026 - Present",
+        "period": "Aug 2026",
         "company": "Invicta Business Partners",
         "role": "AI Automation & Integration Specialist",
         "location": "Puerto Rico (Remote)",
         "description": "Full administrator of the firm's Microsoft environment: access management and user incident resolution, Exchange administration, and production error diagnosis. I build internal and client-facing automations — mostly custom scripts, backed by n8n and Power Automate where they fit — and integrate AI models (Gemini, OpenAI) into business workflows, favoring fast solutions that unblock operations."
       },
       {
-        "period": "Jan 2026 - Present",
+        "period": "Jan 2026",
         "company": "Faim Lab",
         "role": "Web Development & Webmastering",
         "location": "Florida, USA (Remote)",
         "description": "Development, deployment, and administration of 10+ websites for clients in the US and Latin America. I build corporate sites, WooCommerce and Shopify e-commerce, content portals, and landing pages optimized for SEO and conversion, covering the full cycle: architecture, infrastructure, deployment, and webmaster maintenance. Also built Enséñame Ya, a live 1:1 mentorship marketplace connecting students and tutors, with Next.js and React on Supabase (database, auth, and storage), deployed on Vercel."
       },
       {
-        "period": "Aug 2025 - Present",
+        "period": "Aug 2025",
         "company": "Cemergy",
         "role": "Data, BI & Automation Engineer",
         "location": "Spain (Remote)",
